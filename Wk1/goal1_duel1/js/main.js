@@ -8,7 +8,7 @@
 
 
 //Diogo Cabral - October, 01 - Goal 1 - Duel1 Assignment
-console.log("Js Working");
+//console.log("Js Working");
 
 
 var playerOneName = "Spiderman";
@@ -20,7 +20,7 @@ var playerTwoHealth = 100;
 var playerOneDamage = 50;
 var playerTwoDamage = 50;
 
-
+alert("START GAME \n" + playerOneName + ":" + playerOneHealth +  "\t\t" + playerTwoName + ":" + playerTwoHealth);
 
 
 
