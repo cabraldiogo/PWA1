@@ -11,4 +11,16 @@
 console.log("Js Working");
 
 
+var playerOneName = "Spiderman";
+var playerTwoName = "Batman";
+
+var playerOneHealth = 100;
+var playerTwoHealth = 100;
+
+var playerOneDamage = 50;
+var playerTwoDamage = 50;
+
+
+
+
 
