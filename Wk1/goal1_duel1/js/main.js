@@ -28,8 +28,8 @@
     var playerOneHealth = 100;
     var playerTwoHealth = 100;
 
-    var playerOneDamage = 50;
-    var playerTwoDamage = 50;
+    var playerOneDamage = 20;
+    var playerTwoDamage = 20;
 
     var rounds = 0;
 
@@ -41,7 +41,13 @@
         alert("\t\t\t START GAME \n" + playerOneName + ":" + playerOneHealth +  " \t X " + "\t\t" + playerTwoName + ":" + playerTwoHealth);
 
         for(var i= 0; i<10; i++){
-            console.log(i);
+            var minDamageP1 = playerOneDamage * .5;
+            var minDamageP2 = playerOneDamage * .5;
+            var f1 = Math.floor(Math.random() * (playerOneDamage-minDamageP1)+minDamageP1);
+            var f2 = Math.floor(Math.random() * (playerTwoDamage-minDamageP2)+minDamageP2);
+
+            console.log(f1);
+            console.log(f2);
         };
 
     };
