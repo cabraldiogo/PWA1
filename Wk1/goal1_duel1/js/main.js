@@ -33,17 +33,28 @@
 
     var rounds = 0;
 
-    alert("START GAME \n" + playerOneName + ":" + playerOneHealth +  "\t\t" + playerTwoName + ":" + playerTwoHealth);
+
 
     function fight(){
         console.log("Fight Function");
 
-    }
+        alert("\t\t\t START GAME \n" + playerOneName + ":" + playerOneHealth +  " \t X " + "\t\t" + playerTwoName + ":" + playerTwoHealth);
 
-    function winnerCheck(){}
+        for(var i= 0; i<10; i++){
+            console.log(i);
+        };
+
+    };
+
+    function winnerCheck(){
+
+
+
+
+    };
 
     console.log("Program starts here");
-    fight()
+    fight();
 
 })();
 
