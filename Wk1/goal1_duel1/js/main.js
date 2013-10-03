@@ -46,8 +46,17 @@
             var f1 = Math.floor(Math.random() * (playerOneDamage-minDamageP1)+minDamageP1);
             var f2 = Math.floor(Math.random() * (playerTwoDamage-minDamageP2)+minDamageP2);
 
-            console.log(f1);
-            console.log(f2);
+            //console.log(f1);
+            //console.log(f2);
+
+
+            //Inflict Damage
+            playerOneHealth-=f1;
+            playerTwoHealth-=f2;
+
+
+            console.log(playerOneName + ":" + playerOneHealth +  " \t X " + "\t\t" + playerTwoName + ":" + playerTwoHealth);
+
         };
 
     };
