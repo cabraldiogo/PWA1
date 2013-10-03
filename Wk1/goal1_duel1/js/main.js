@@ -1,10 +1,4 @@
-/**
- * Created with JetBrains WebStorm.
- * User: diogocabral
- * Date: 10/1/13
- * Time: 2:57 PM
- * To change this template use File | Settings | File Templates.
- */
+
 
 
 //Diogo Cabral - October, 01 - Goal 1 - Duel1 Assignment
@@ -26,36 +20,40 @@
 // the loser, a tie (both die) or no winner yet. This function does the conditional logic to determine if there is a winner or not.
 //•	A break command is used to escape out of the loop if the fight is over before the 10 rounds is reached
 
+(function start(){
 
-var playerOneName = "Spiderman";
-var playerTwoName = "Batman";
+    var playerOneName = "Spiderman";
+    var playerTwoName = "Batman";
 
-var playerOneHealth = 100;
-var playerTwoHealth = 100;
+    var playerOneHealth = 100;
+    var playerTwoHealth = 100;
 
-var playerOneDamage = 50;
-var playerTwoDamage = 50;
+    var playerOneDamage = 50;
+    var playerTwoDamage = 50;
 
-alert("START GAME \n" + playerOneName + ":" + playerOneHealth +  "\t\t" + playerTwoName + ":" + playerTwoHealth);
+    var rounds = 0;
 
+    alert("START GAME \n" + playerOneName + ":" + playerOneHealth +  "\t\t" + playerTwoName + ":" + playerTwoHealth);
 
-var maxDamageP1 = playerOneDamage;
-var minDamageP1 = playerOneDamage/2;
-var maxDamageP2 = playerTwoDamage;
-var maxDamageP2 = playerTwoDamage/2;
-
-Function fight(par1,par2){
-
-    for(){
-
+    function fight(){
+        console.log("Fight Function");
 
     }
 
+    function winnerCheck(){}
+
+    console.log("Program starts here");
+    fight()
+
+})();
 
 
-}
 
 
+//var maxDamageP1 = playerOneDamage;
+//var minDamageP1 = playerOneDamage/2;
+//var maxDamageP2 = playerTwoDamage;
+//var maxDamageP2 = playerTwoDamage/2;
 
 
 
