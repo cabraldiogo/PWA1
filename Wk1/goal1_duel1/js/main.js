@@ -57,11 +57,43 @@
 
             console.log(playerOneName + ":" + playerOneHealth +  " \t X " + "\t\t" + playerTwoName + ":" + playerTwoHealth);
 
+            var results = winnerCheck();
+            console.log(results);
+
+            if(results ==="No winner"){
+                rounds++;
+                alert("\t\t\t Round "+ rounds+ " is over \n" + playerOneName + ":" + playerOneHealth +  " \t X " + "\t\t" + playerTwoName + ":" + playerTwoHealth);
+
+
+            } else{
+                alert(results);
+                break;
+
+            };
+
+
         };
 
     };
 
     function winnerCheck(){
+        console.log("In winner check function");
+
+        var result="No winner";
+
+        if(playerOneHealth<0 && playerTwoHealth<0){
+            result = "Game Over. You both died";
+
+
+        } else if(playerOneHealth<1){
+            result = playerTwoName + "Wins!"
+
+
+        }else if(playerTwoHealth<1){
+            result = playerOneName + "Wins!"
+        };
+
+        return result;
 
 
 
