@@ -33,6 +33,9 @@ console.log(average);
 
 //==================================//
 
+
+
+
 // create a function named 'fullName'
 // accept 2 parameters into the function that are strings (firstname and lastname)
 // return the name after it has been concatenated
@@ -51,23 +54,9 @@ function fullName (first,last){
 console.log(fullName(fName,lName));
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //==================================//
+
+
 
 //create a function named 'wordCount'
 //accept 1 parameter into the function that is a long string of text words
@@ -91,6 +80,53 @@ console.log("My sentence has " + wordCount(string)+ " words");
 //==================================//
 
 
+//create a function named 'charCount'
+//accept 1 parameter into the function that is a long string of text
+//return length of the array of string characters
+//console.log the answer outside of the function
+
+var string2 = ["a b c d"];
+function charCount(){
+
+    var counter = 0;
+        for(var i= 0; i<= string2.length; i++){
+
+            counter ++;
+
+    }
+    return counter + 1;
+
+}
+  console.log(charCount(string2));
+//==================================//
+
+//create a function named 'vowelsInWord'
+//accept 1 parameter into the function that is a a one word string
+//return the number of vowels in the word
+//console.log the answer outside of the function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//==================================//
+//create a function named 'findNum'
+//    - accepts 2 parameters into the function - 1. array of numbers, 2. boolean
+//- if the second parameter being passed is "false" or null then
+// - create an array with all of the odd numbers from the array
+//- else
+// - create an array with all of the even numbers from the array
+//- return the array
+//- console.log the answer outside of the function
 
 
 
