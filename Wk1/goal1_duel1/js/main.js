@@ -38,7 +38,7 @@
     function fight(){
         console.log("Fight Function");
 
-        alert("\t\t\t START GAME \n" + playerOneName + ":" + playerOneHealth +  " \t X " + "\t\t" + playerTwoName + ":" + playerTwoHealth);
+        alert("\t\t ***START GAME***\n" + playerOneName + ":" + playerOneHealth +  "\t\t  X  " + "\t\t" + playerTwoName + ":" + playerTwoHealth);
 
         for(var i= 0; i<10; i++){
             var minDamageP1 = playerOneDamage * .5;
@@ -59,7 +59,7 @@
 
             if(results ==="No winner"){
                 rounds++;
-                alert("\t\t\t Round "+ rounds+ " is over \n" + playerOneName + ":" + playerOneHealth +  " \t X " + "\t\t" + playerTwoName + ":" + playerTwoHealth);
+                alert("\t\t ROUND "+ rounds+ " IS OVER \n" + playerOneName + ":" + playerOneHealth +  " \t X " + "\t" + playerTwoName + ":" + playerTwoHealth);
 
 
             } else{
