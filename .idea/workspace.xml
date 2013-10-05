@@ -5,9 +5,9 @@
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380921817642" ignored="false" />
-    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380809399903" ignored="false" />
+    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380979365290" ignored="false" />
     <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380828862466" ignored="false" />
-    <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380979202670" ignored="false" />
+    <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380979374262" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,18 +28,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/index.html">
+        <entry file="file://$PROJECT_DIR$/Wk1/class3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="6" column="29" selection-start="94" selection-end="94" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="init.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/js/init.js">
+        <entry file="file://$PROJECT_DIR$/Wk1/class3/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="39" selection-start="622" selection-end="622" vertical-scroll-proportion="-1.9338843">
+            <state line="9" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.06198347">
               <folding />
             </state>
           </provider>
@@ -70,6 +70,8 @@
         <option value="$PROJECT_DIR$/Wk1/class2/js/init.js" />
         <option value="$PROJECT_DIR$/Wk1/goal1_duel1/js/main.js" />
         <option value="$PROJECT_DIR$/goal2_assign_jspractice/js/init.js" />
+        <option value="$PROJECT_DIR$/Wk1/class3/index.html" />
+        <option value="$PROJECT_DIR$/Wk1/class3/js/init.js" />
       </list>
     </option>
   </component>
@@ -132,7 +134,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal2_assign_jspractice" />
+              <option name="myItemId" value="Wk1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -146,7 +148,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal2_assign_jspractice" />
+              <option name="myItemId" value="Wk1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wk1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -330,7 +354,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="39" selection-start="622" selection-end="622" vertical-scroll-proportion="-1.9338843">
+        <state line="24" column="39" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/class3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="94" selection-end="94" vertical-scroll-proportion="-3.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/class3/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.06198347">
           <folding />
         </state>
       </provider>
