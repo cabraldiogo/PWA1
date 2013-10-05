@@ -148,7 +148,11 @@ console.log( "The word on wordVariable has "+vowelsInWord(wordVariable) + " vowe
 //- console.log the answer outside of the function
 
 
+function findNum(){
 
+
+
+};
 
 
 
