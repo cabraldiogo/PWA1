@@ -99,7 +99,7 @@ function charCount(charQty){
 }
 
 
-  console.log(charCount(string2));
+  console.log("The Array string2 has "+charCount(string2)+ " elements");
 //==================================//
 
 //create a function named 'vowelsInWord'
@@ -130,7 +130,7 @@ return counter;
 
 }
 
-console.log(vowelsInWord(wordVariable));
+console.log( "The word on wordVariable has "+vowelsInWord(wordVariable) + " vowels");
 
 
 
@@ -146,6 +146,9 @@ console.log(vowelsInWord(wordVariable));
 // - create an array with all of the even numbers from the array
 //- return the array
 //- console.log the answer outside of the function
+
+
+
 
 
 
