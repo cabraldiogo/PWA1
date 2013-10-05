@@ -147,14 +147,52 @@ console.log( "The word on wordVariable has "+vowelsInWord(wordVariable) + " vowe
 //- return the array
 //- console.log the answer outside of the function
 
-
-function findNum(){
-
-
-
-};
+var numberArray = [2,3,6,4,6,8,9,7];
+var test = true;
 
 
+
+function findNum(array,boolean){
+
+
+    var foundNumbers = [];
+
+    for(var i=0; i<array.length;i++){
+
+
+            // find the evens
+            if(boolean){
+                if(array[i] % 2 == 0){
+                    foundNumbers.push(array[i]);
+                }
+            }
+
+            // find the odds
+            else{
+                if(array[i] % 2 == 1){
+                    foundNumbers.push(array[i]);
+                }
+            }
+
+    }
+
+    return foundNumbers;
+
+}
+ console.log(findNum(numberArray,test));
+
+//
+//    if(boolean > 4){
+//       for( var i=0; i< array.length;i++){
+//           if(){
+//
+//           };
+//
+//           var oddNumbers = []
+//
+//       };
+//
+//    };
 
 
 
