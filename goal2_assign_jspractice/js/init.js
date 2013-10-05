@@ -22,8 +22,8 @@ function avgNumbers(numArray){
         numTotal += numArray[i];
 
     }
-    var calcAverage = numTotal / numArray.length;
-    return calcAverage;
+    return numTotal / numArray.length;
+
 
 
 };
@@ -46,8 +46,8 @@ var lName = "Cabral";
 
 function fullName (first,last){
 
-    var concName = fName +" "+ lName;
-    return concName
+
+    return fName +" "+ lName
 
 }
 
