@@ -7,7 +7,7 @@
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380921817642" ignored="false" />
     <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380809399903" ignored="false" />
     <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380828862466" ignored="false" />
-    <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380930111570" ignored="false" />
+    <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380932097038" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
       <file leaf-file-name="init.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="1" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.35950413">
+            <state line="87" column="27" selection-start="2091" selection-end="2091" vertical-scroll-proportion="0.5371901">
               <folding />
             </state>
           </provider>
@@ -330,7 +330,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="1" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.35950413">
+        <state line="87" column="27" selection-start="2091" selection-end="2091" vertical-scroll-proportion="0.5371901">
           <folding />
         </state>
       </provider>

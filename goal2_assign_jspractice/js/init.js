@@ -85,18 +85,24 @@ console.log("My sentence has " + wordCount(string)+ " words");
 //return length of the array of string characters
 //console.log the answer outside of the function
 
-var string2 = ["a b c d"];
-function charCount(){
+var string2 = "Diogo Cabral";
+
+function charCount(charQty){
 
     var counter = 0;
-        for(var i= 0; i<= string2.length; i++){
+        for(var i= 0; i<= charQty.length; i++){
+            if(charQty !=" "){
+                counter ++;
+            }
 
-            counter ++;
+
 
     }
-    return counter + 1;
+    return counter -1;
 
 }
+
+
   console.log(charCount(string2));
 //==================================//
 
