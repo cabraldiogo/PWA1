@@ -85,20 +85,16 @@ console.log("My sentence has " + wordCount(string)+ " words");
 //return length of the array of string characters
 //console.log the answer outside of the function
 
-var string2 = "Diogo Cabral";
+var string2 = ["Diogo Cabral","Gabriel Ferraz","Kareem Beazer"];
 
 function charCount(charQty){
 
     var counter = 0;
-        for(var i= 0; i<= charQty.length; i++){
-            if(charQty !=" "){
-                counter ++;
-            }
+        for(var i= 0; i< charQty.length; i++){
+           counter = i;
 
-
-
-    }
-    return counter -1;
+        }
+    return counter + 1;
 
 }
 
@@ -111,20 +107,37 @@ function charCount(charQty){
 //return the number of vowels in the word
 //console.log the answer outside of the function
 
+var wordVariable = "University";
 
+function vowelsInWord(word){
+    var counter = 0;
 
+    for(var i=0; i<word.length; i++){
+          if(word.charAt(i)== "a" || word.charAt(i)=="A"){
+              counter++;
+          }else if(word.charAt(i)== "e" || word.charAt(i)=="E"){
+             counter++;
+          }else if(word.charAt(i)== "i" || word.charAt(i)=="I"){
+             counter++;
+          }else if(word.charAt(i)== "o" || word.charAt(i)=="O"){
+             counter++;
+          }else if(word.charAt(i)== "u" || word.charAt(i)=="U"){
+              counter ++;
+          }
 
+    }
+return counter;
 
+}
 
-
-
-
-
+console.log(vowelsInWord(wordVariable));
 
 
 
 
 //==================================//
+
+
 //create a function named 'findNum'
 //    - accepts 2 parameters into the function - 1. array of numbers, 2. boolean
 //- if the second parameter being passed is "false" or null then
