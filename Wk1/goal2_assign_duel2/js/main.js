@@ -4,26 +4,19 @@
 //Diogo Cabral - October, 8 - Goal 2 - Duel2 Assignment
 //console.log("Js Working");
 
+//  Open the JavaScript file of part I
+//  Replace the variables that reference the name, health, and damage with an array. You will do this for both players.
+//  example: var fighter1 = ["Spiderman", 20, 100];
+//  Modify the remaining code so that it works with the arrays instead of the variables that were used in part I of the assignment
+
 
 
 (function(){
 
-//    var figther1 = ["Spiderman",100,20];
-//    var figther2 = ["Batman",100,20];
-
-
-//    var playerOneHealth = 100;
-//    var playerTwoHealth = 100;
-//
-//    var playerOneDamage = 20;
-//    var playerTwoDamage = 20;
 
     var fighter1 = ["Spiderman",100,20];
     var fighter2 = ["Batman",100,20];
-
     var rounds = 0;
-
-
 
     function fight(){
         console.log("Fight Function");
