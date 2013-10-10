@@ -14,20 +14,25 @@
 
     var fighters = [
 
-                    {name: "Spiderman",
+                    {name: "IRON HEAD",
                      health: 100,
                      damage: 20
                      },
 
-                    {name: "Batman",
+                    {name: "BOLD UGLY GUY",
                     health: 100,
                     damage: 20
                     }
     ];
      var rounds = 1;
 
+    document.getElementById("kabal").innerHTML = fighters[0].name;
+    document.getElementById("kratos").innerHTML = fighters[1].name;
+
+
     function fight(){
 
+        document.getElementById("kabal").innerHTML = fighters[0].name;
         document.getElementById("round").innerHTML = "Round " + rounds + " is over";
 
 
