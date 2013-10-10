@@ -42,11 +42,7 @@
 
 
 
-        for(var i= 0; i<10; i++){
-            var minDamageP1 = fighter1[2] * .5;
-            var minDamageP2 = fighter2[2] * .5;
-            var f1 = Math.floor(Math.random() * (fighter1[2]-minDamageP1)+minDamageP1);
-            var f2 = Math.floor(Math.random() * (fighter2[2]-minDamageP2)+minDamageP2);
+
 
 
             //Inflict Damage
@@ -71,7 +67,7 @@
             }
 
 
-        }
+
 
     }
 
