@@ -4,7 +4,7 @@
     <list default="true" id="268fd64e-ebf6-4679-a60f-1034a777848a" name="Default" comment="" />
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380921817642" ignored="false" />
+    <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381255937341" ignored="false" />
     <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380996803053" ignored="false" />
     <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381000354570" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380995927494" ignored="false" />
@@ -119,7 +119,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal2_assign_jspractice" />
+              <option name="myItemId" value="Wk1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goal2_assign_duel2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -133,11 +137,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal2_assign_jspractice" />
+              <option name="myItemId" value="Wk1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="goal1_duel1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Wk1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,61 +307,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal1_duel1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="27" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.5890603">
-          <folding />
-        </state>
+        <state line="61" column="27" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.5890603" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal1_duel1/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="0.12820514">
-          <folding />
-        </state>
+        <state line="6" column="25" selection-start="90" selection-end="90" vertical-scroll-proportion="0.12820514" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/class3/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.9467041">
-          <folding>
-            <element signature="e#0#163#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="51" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.9467041" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/class3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="94" selection-end="94" vertical-scroll-proportion="0.12820514">
-          <folding />
-        </state>
+        <state line="6" column="29" selection-start="94" selection-end="94" vertical-scroll-proportion="0.12820514" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Google Drive/FULL SAIL/PWA1/goal2_assign_JSpractice/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="44" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.8264463">
-          <folding />
-        </state>
+        <state line="60" column="44" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.8264463" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="78" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.5785124">
-          <folding />
-        </state>
+        <state line="77" column="78" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.5785124" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="95" selection-end="95" vertical-scroll-proportion="0.12820514">
-          <folding />
-        </state>
+        <state line="6" column="30" selection-start="95" selection-end="95" vertical-scroll-proportion="0.12820514" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/js/oldCode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="89" selection-start="258" selection-end="258" vertical-scroll-proportion="0.24793388">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="12" column="89" selection-start="258" selection-end="258" vertical-scroll-proportion="0.24793388" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
