@@ -3,7 +3,7 @@
 
 //Diogo Cabral - October, 10 - Goal 4 - Duel3 Assignment
 //console.log("Js Working");
-
+(function(){
 
 
     document.querySelector(".buttonblue").onclick  = function(){
@@ -24,17 +24,19 @@
                     damage: 20
                     }
     ];
-
+     var rounds = 1;
 
     function fight(){
 
-        document.getElementById("round").innerHTML = "New round";
+        document.getElementById("round").innerHTML = "Round " + rounds + " is over";
+
 
         var minDamageP1 = fighters[0].damage * .5;
         var minDamageP2 = fighters[1].damage * .5;
         var f1 = Math.floor(Math.random() * (fighters[0].damage-minDamageP1)+minDamageP1);
         var f2 = Math.floor(Math.random() * (fighters[1].damage-minDamageP2)+minDamageP2);
-        var rounds = 0;
+
+
         fighters[0].health-=f1;
         fighters[1].health-=f2;
 
@@ -51,9 +53,6 @@
 
 
             }
-
-
-
 
     }
 
@@ -80,8 +79,8 @@
 
 
     }
+})();
 
-    //fight();
 
 
 
