@@ -5,7 +5,7 @@
     <ignored path="goal4_assign_duel3.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/index.html" changelist="11ba955b-6fd9-40a6-9710-89a2737b6145" time="1381436051463" ignored="false" />
-    <file path="/main.js" changelist="11ba955b-6fd9-40a6-9710-89a2737b6145" time="1381441480507" ignored="false" />
+    <file path="/main.js" changelist="11ba955b-6fd9-40a6-9710-89a2737b6145" time="1381442765216" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="87" selection-start="607" selection-end="607" vertical-scroll-proportion="0.2892562">
+            <state line="51" column="18" selection-start="1144" selection-end="1144" vertical-scroll-proportion="1.053719">
               <folding />
             </state>
           </provider>
@@ -261,7 +261,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="87" selection-start="607" selection-end="607" vertical-scroll-proportion="0.2892562">
+        <state line="51" column="18" selection-start="1144" selection-end="1144" vertical-scroll-proportion="1.053719">
           <folding />
         </state>
       </provider>

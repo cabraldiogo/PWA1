@@ -49,8 +49,8 @@
 
 
             } else{
-                alert(results);
-
+//                alert(results);
+                document.querySelector("#round").innerHTML = results;
 
             }
 
