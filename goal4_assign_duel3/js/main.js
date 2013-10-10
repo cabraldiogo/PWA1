@@ -28,7 +28,6 @@
                     health: 100,
                     damage: 20
                     }
-
     ];
 
 
