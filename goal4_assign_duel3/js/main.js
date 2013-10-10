@@ -22,12 +22,12 @@
                     {name: "Spiderman",
                      health: 100,
                      damage: 20
-    },
+                     },
 
                     {name: "Batman",
                     health: 100,
                     damage: 20
-    }
+                    }
 
     ];
 
@@ -41,7 +41,7 @@
         console.log("Fight Function");
 
 
-        alert("\t\t ***START GAME***\n" + fighter1[0] + ":" + fighter1[1] +  "\t\t  X  " + "\t\t" + fighter2[0] + ":" + fighter2[1]);
+
 
         for(var i= 0; i<10; i++){
             var minDamageP1 = fighter1[2] * .5;
@@ -62,7 +62,7 @@
 
             if(results ==="No winner"){
                 rounds++;
-                alert("\t\t ROUND "+ rounds+ " IS OVER \n" + fighter1[0] + ":" + fighter1[1] +  " \t X " + "\t" + fighter2[0] + ":" + fighter2[1]);
+
 
 
             } else{
