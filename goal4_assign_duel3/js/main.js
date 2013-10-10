@@ -10,13 +10,11 @@
 //  Modify the remaining code so that it works with the arrays instead of the variables that were used in part I of the assignment
 
 
-
-(function(){
-
-    document.getElementsByTagName("a").onclick  = console.log(fight());
+    document.querySelector(".buttonblue").onclick  = function(){
+       fight();
+    };
 
     var rounds = 0;
-
     var fighters = [
 
                     {name: "Spiderman",
@@ -31,24 +29,17 @@
     ];
 
 
-
-
-
-
-
     function fight(){
         console.log("Fight Function");
+        document.getElementById("round").innerHTML = "New round";
 
+        var minDamageP1 = fighters[0].damage * .5;
+        var minDamageP2 = fighters[1].damage * .5;
+        var f1 = Math.floor(Math.random() * (fighters[0].damage-minDamageP1)+minDamageP1);
+        var f2 = Math.floor(Math.random() * (fighters[1].damage-minDamageP2)+minDamageP2);
 
-
-
-
-
-
-
-
-
-
+        fighters[0].health-=f1;
+        fighters[1].health-=f2;
 
             var results = winnerCheck();
             console.log(results);
@@ -74,16 +65,16 @@
 
         var result="No winner";
 
-        if(fighter1[1]<0 && fighter2[1]<0){
+        if(fighters[0].health<0 && fighters[1].health<0){
             result = "Game Over. You both died";
 
 
-        } else if(fighter1[1]<1){
-            result = fighter2[0] + "Wins!"
+        } else if(fighters[0].health<1){
+            result = fighters[1] + "Wins!"
 
 
-        }else if(fighter2[1]<1){
-            result = fighter1[0] + "Wins!"
+        }else if(fighters[1]<1){
+            result = fighters[0].health + "Wins!"
         }
 
         return result;
@@ -93,12 +84,12 @@
 
     }
 
-    fight();
+    //fight();
 
 
     document.getElementsByTagName("a").onclick=(console.log("OK"));
 
-})();
+
 
 
 
