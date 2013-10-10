@@ -13,7 +13,7 @@
 
 (function(){
 
-
+    document.getElementsByTagName("a").onclick  = console.log(fight());
 
     var rounds = 0;
 
@@ -45,12 +45,10 @@
 
 
 
-            //Inflict Damage
-            fighter1[1]-=f1;
-            fighter2[1]-=f2;
 
 
-            console.log(fighter1[0] + ":" + fighter1[1] +  " \t X " + "\t\t" + fighter2[0] + ":" + fighter2[1]);
+
+
 
             var results = winnerCheck();
             console.log(results);
@@ -62,7 +60,7 @@
 
             } else{
                 alert(results);
-                break;
+
 
             }
 
@@ -96,6 +94,9 @@
     }
 
     fight();
+
+
+    document.getElementsByTagName("a").onclick=(console.log("OK"));
 
 })();
 
