@@ -14,9 +14,28 @@
 (function(){
 
 
-    var fighter1 = ["Spiderman",100,20];
-    var fighter2 = ["Batman",100,20];
+//    var fighter1 = ["Spiderman",100,20];
+//    var fighter2 = ["Batman",100,20];
     var rounds = 0;
+
+    var fighters = [];
+
+    var player1 = {name: "Spiderman",
+                     health: 100,
+                     damage: 20
+    };
+
+    var player2 = {name: "Batman",
+        health: 100,
+        damage: 20
+    };
+
+
+
+
+
+
+
 
     function fight(){
         console.log("Fight Function");

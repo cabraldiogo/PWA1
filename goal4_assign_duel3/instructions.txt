@@ -1,0 +1,25 @@
+To obtain full credit on the assignment your submission should match the functionality of the demonstration. The following criteria must be adhered to as well as satisfying all items on this assignment's rubric.
+Open the js/main.js file.
+All uses of alert() must be removed
+An object with three properties(keys) is created for both fighters. The three properties are:
+name
+damage
+health
+Example: fighter1 = {name:Spiderman, damage:20, health:100};
+Both fighter objects should be in an array
+Modify fight() function
+Since this assignment is now using objects, the code in the fight() function must be modified from the previous version of the assignment to accommodate for this. NO loop will be needed!-since clicking on the button is what triggers the next round.
+Replace the alerts with code that access the DOM(HTML) such as getElemetById and/or querySelector
+Use JavaScript's innerHTML property to change the text in the HTML. The following information will be displayed dynamically in the HTML (view the demonstration again to see how this should look):
+Fighter's name and health at the top
+Current round number above the button
+Create a click event on the button
+When the button is clicked, the following should commence:
+advance round
+the modified fight() function is called
+Disable the button when the game is over and make sure the appropriate "game over message" is shown at the top. The message should be one of the following:
+Fighter 1 wins
+Fighter 2 wins
+Both Fighters Die
+Make sure the actual name of the fighter is shown not fighter1 or fighter2. You can always change the message to something else if you want to be more creative.
+Good Luck!
