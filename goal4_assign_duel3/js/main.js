@@ -71,11 +71,11 @@
 
 
         } else if(fighters[0].health<1){
-            result = fighters[1] + "Wins!"
+            result = fighters[1].name + "Wins!"
 
 
         }else if(fighters[1]<1){
-            result = fighters[0].health + "Wins!"
+            result = fighters[0].name + "Wins!"
         }
 
         return result;
