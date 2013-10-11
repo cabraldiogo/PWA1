@@ -26,8 +26,12 @@
     ];
      var rounds = 1;
 
-    document.getElementById("kabal").innerHTML = fighters[0].name;
-    document.getElementById("kratos").innerHTML = fighters[1].name;
+    var topF1 = document.getElementById("kabal");
+    topF1.innerHTML = fighters[0].name + "  " + fighters[0].health;
+
+    var topF1 = document.getElementById("kratos");
+    topF1.innerHTML = fighters[1].name + "  " + fighters[0].health;
+
 
 
     function fight(){
@@ -58,6 +62,12 @@
                 document.querySelector("#round").innerHTML = results;
 
             }
+
+        var topF1 = document.getElementById("kabal");
+        topF1.innerHTML = fighters[0].name + " " + fighters[0].health;
+
+        var topF1 = document.getElementById("kratos");
+        topF1.innerHTML = fighters[1].name + "  " + fighters[0].health;
 
     }
 
