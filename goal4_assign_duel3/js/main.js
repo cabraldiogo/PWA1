@@ -32,7 +32,7 @@
 
     function fight(){
 
-        document.getElementById("kabal").innerHTML = fighters[0].name;
+
         document.getElementById("round").innerHTML = "Round " + rounds + " is over";
 
 
@@ -61,13 +61,15 @@
 
     }
 
+
+
     function winnerCheck(){
         //console.log("In winner check function");
 
         var result="No winner";
 
         if(fighters[0].health<0 && fighters[1].health<0){
-            result = "Game Over. You both died";
+            result = "Game Over. \n You both died";
 
 
         } else if(fighters[0].health<1){
