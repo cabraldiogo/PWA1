@@ -6,6 +6,7 @@
 (function(){
 
 
+
     document.querySelector(".buttonblue").onclick  = function(){
        fight();
 
@@ -63,14 +64,13 @@
                 rounds++;
 
                 } else {
-//
-                document.getElementById("fight_box").disabled= true;
+
+                //document.getElementById("fight_box").disabled= true;
+                //document.querySelector(".buttonblue").onclick().disabled = true;
+
                 document.querySelector("#round").innerHTML = "Game Over!";
                 document.querySelector("#kabal").innerHTML = results;
                 document.querySelector("#kratos").innerHTML = "";
-                console.log(fighters[0].health);
-
-
 
             }
 
