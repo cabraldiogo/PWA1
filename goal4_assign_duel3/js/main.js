@@ -27,10 +27,10 @@
      var rounds = 1;
 
     var topF1 = document.getElementById("kabal");
-    topF1.innerHTML = fighters[0].name + "  " + fighters[0].health;
+    topF1.innerHTML = fighters[0].name + " : " + fighters[0].health;
 
     var topF1 = document.getElementById("kratos");
-    topF1.innerHTML = fighters[1].name + "  " + fighters[1].health;
+    topF1.innerHTML = fighters[1].name + " : " + fighters[1].health;
 
 
 
