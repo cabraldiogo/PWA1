@@ -5,7 +5,9 @@
 //console.log("Js Working");
 (function(){
 
-
+     function disableButton(){
+         document.querySelector(".buttonblue").disabled = true;
+     }
 
     document.querySelector(".buttonblue").onclick  = function(){
        fight();
@@ -66,19 +68,18 @@
                 } else {
 
                 //document.getElementById("fight_box").disabled= true;
-                //document.querySelector(".buttonblue").onclick().disabled = true;
+                //document.querySelector(".buttonblue").disabled = true;
 
                 document.querySelector("#round").innerHTML = "Game Over!";
                 document.querySelector("#kabal").innerHTML = results;
                 document.querySelector("#kratos").innerHTML = "";
+                document.querySelector(".buttonblue").onclick = disableButton();
+
+
 
             }
 
-
-
     }
-
-
 
     function winnerCheck(){
         //console.log("In winner check function");
@@ -86,10 +87,7 @@
         var result="No winner";
 
         if(fighters[0].health<0 && fighters[1].health<0){
-            result = "GAME OVER!  You both died";
-
-
-
+            result = "GAME OVER!  YOU BOTH DIED";
 
         } else if(fighters[0].health<1){
             result = "GAME OVER! " + fighters[1].name + " WINS!"
@@ -100,9 +98,6 @@
         }
 
         return result;
-
-
-
 
     }
 })();
