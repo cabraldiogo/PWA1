@@ -67,6 +67,7 @@
 
                 } else {
 
+                // Scoot I just left this comments because I want your feedback to know why this codes didn't work
                 //document.getElementById("fight_box").disabled= true;
                 //document.querySelector(".buttonblue").disabled = true;
 
