@@ -15,7 +15,7 @@ var car = {color:"silver",
 };
 
 for (var bob in car){
-    //console.log(bob,car[bob]);
+    console.log(bob,car[bob]);
 }
 
 var myDog = {breed:"Bulldog",

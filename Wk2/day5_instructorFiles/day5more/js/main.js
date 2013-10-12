@@ -29,11 +29,14 @@ console.log("started");
     }
 
     var totalKeys=0;
-    for (var key in weather ){
+    for (var key in weather1 ){
         totalKeys++;
-        data.push(weather[key]);
+        data.push(weather1[key]);
+        console.log(weather1[key]);
     }
     //console.log(totalKeys);
     console.log(data);
+    console.log(totalKeys);
+    console.log(cities[0]);
 
 })();
