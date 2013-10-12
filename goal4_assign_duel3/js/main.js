@@ -49,25 +49,32 @@
         fighters[0].health-=f1;
         fighters[1].health-=f2;
 
-            var results = winnerCheck();
-            //console.log(results);
-
-            if(results ==="No winner"){
-                rounds++;
-
-
-
-            } else{
-//                alert(results);
-                document.querySelector("#round").innerHTML = results;
-
-            }
-
         var topF1 = document.getElementById("kabal");
         topF1.innerHTML = fighters[0].name + " " + fighters[0].health;
 
         var topF2 = document.getElementById("kratos");
         topF2.innerHTML = fighters[1].name + "  " + fighters[1].health;
+
+            var results = winnerCheck();
+
+
+            //console.log(results);
+            if(results ==="No winner"){
+                rounds++;
+
+                } else {
+//
+                document.getElementById("fight_box").disabled= true;
+                document.querySelector("#round").innerHTML = "Game Over!";
+                document.querySelector("#kabal").innerHTML = results;
+                document.querySelector("#kratos").innerHTML = "";
+                console.log(fighters[0].health);
+
+
+
+            }
+
+
 
     }
 
@@ -79,16 +86,17 @@
         var result="No winner";
 
         if(fighters[0].health<0 && fighters[1].health<0){
-            result = "Game Over. \n You both died";
+            result = "GAME OVER!  You both died";
+
 
 
 
         } else if(fighters[0].health<1){
-            result = fighters[1].name + "Wins!"
+            result = "GAME OVER! " + fighters[1].name + " WINS!"
 
 
         }else if(fighters[1].health<1){
-            result = fighters[0].name + "Wins!"
+            result = "GAME OVER! " + fighters[0].name + " WINS!"
         }
 
         return result;

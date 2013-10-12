@@ -29,9 +29,11 @@ Create a click event on the button
 When the button is clicked, the following should commence:
 advance round
 the modified fight() function is called
-Disable the button when the game is over and make sure the appropriate "game over message" is shown at the top. The message should be one of the following:
+Disable the button when the game is over and make sure the appropriate "game over message" is shown at the top.
+The message should be one of the following:
 Fighter 1 wins
 Fighter 2 wins
 Both Fighters Die
-Make sure the actual name of the fighter is shown not fighter1 or fighter2. You can always change the message to something else if you want to be more creative.
+Make sure the actual name of the fighter is shown not fighter1 or fighter2.
+You can always change the message to something else if you want to be more creative.
 Good Luck!
