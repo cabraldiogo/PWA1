@@ -86,7 +86,7 @@
             result = fighters[1].name + "Wins!"
 
 
-        }else if(fighters[1]<1){
+        }else if(fighters[1].health<1){
             result = fighters[0].name + "Wins!"
         }
 
