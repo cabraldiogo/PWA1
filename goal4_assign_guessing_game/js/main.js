@@ -19,12 +19,19 @@
 
         input: document.querySelector("#input"),
         output: document.querySelector("#ouput"),
-        button: document.querySelector("#button")
+        button: document.querySelector("#btn")
 
     };
 
     var genNumber = Math.floor(Math.random()* 10 +1);
-    console.log(genNumber);
+    //console.log(genNumber);
+
+    dom.button.addEventListener("click",clickFn);
+
+    function clickFn(){
+
+        console.log("click function");
+    }
 
 
 
