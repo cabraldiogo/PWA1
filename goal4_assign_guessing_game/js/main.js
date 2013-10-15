@@ -31,6 +31,7 @@
 
     function disableButton(){
         dom.button.removeEventListener("click",clickFn);
+        console.log("disable button");
     }
 
     function clickFn(){
@@ -76,7 +77,7 @@
             dom.output.innerHTML = "You win. Your guess is correct";
             disableButton();
 
-        } else{
+        } if(guesses >2){
             dom.output.innerHTML = "Game over!";
             disableButton();
         }
