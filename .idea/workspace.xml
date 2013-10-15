@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381876564720" ignored="false" />
     <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381860210503" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381863791192" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381876701945" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380995927494" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
@@ -35,7 +35,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal4_assign_guessing_game/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.2892562">
+            <state line="25" column="4" selection-start="360" selection-end="360" vertical-scroll-proportion="0.5165289">
               <folding />
             </state>
           </provider>
@@ -400,7 +400,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal4_assign_guessing_game/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="112" selection-end="112" vertical-scroll-proportion="0.2892562">
+        <state line="25" column="4" selection-start="360" selection-end="360" vertical-scroll-proportion="0.5165289">
           <folding />
         </state>
       </provider>
