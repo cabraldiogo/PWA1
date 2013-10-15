@@ -23,7 +23,8 @@
 
     };
 
-
+    var genNumber = Math.floor(Math.random()* 10 +1);
+    console.log(genNumber);
 
 
 
