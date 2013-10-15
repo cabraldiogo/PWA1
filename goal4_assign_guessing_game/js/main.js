@@ -61,16 +61,16 @@
     function play(){
             chancesRemain--;
             guesses++;
-            statusInfo = "Chance " + guesses + "is over. You have " + chancesRemain + " more chances";
+            statusInfo = "Chance " + guesses + " is over.  You have " + chancesRemain + " more chances";
 
         inputNumber = parseInt(dom.input.value);
 
         if(inputNumber < genNumber){
-            dom.output.innerHTML = "Your guess was to low \n" + statusInfo;
+            dom.output.innerHTML = "Your guess was to low. " + statusInfo;
 
 
         } else if(inputNumber > genNumber){
-            dom.output.innerHTML = "Your guess was to high \n" + statusInfo;
+            dom.output.innerHTML = "Your guess was to high. " + statusInfo;
 
         }else if(inputNumber === genNumber){
             dom.output.innerHTML = "You win. Your guess is correct";
