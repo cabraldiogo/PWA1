@@ -13,6 +13,7 @@
     var inputNumber = 0;
     var chancesRemain = 3;
     var guesses = 0;
+    var statusInfo = "";
 
 
     var dom = {
@@ -33,7 +34,35 @@
         console.log("click function");
     }
 
+    function validation(){
 
+        inputNumber = parseInt(dom.input.value);
+
+        if(isNaN(inputNumber)){
+            dom.output.innerHTML = "Only numbers are accepted";
+
+
+        }else if(inputNumber > 1 || inputNumber >10){
+            dom.output.innerHTML = "You need to enter a number between 1 and 10";
+
+        } else{
+            //play();
+        }
+
+
+
+    }
+
+    function play(){
+            chancesRemain--;
+            guesses++;
+            statusInfo = "Chance " + guesses + "is over. You have " + chancesRemain + " more chances";
+
+        inputNumber = parseInt(dom.input.value);
+
+
+
+    }
 
 
 
