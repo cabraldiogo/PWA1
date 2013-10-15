@@ -4,13 +4,15 @@
     <list default="true" id="268fd64e-ebf6-4679-a60f-1034a777848a" name="Default" comment="" />
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381843035002" ignored="false" />
-    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599891540" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604003821" ignored="false" />
+    <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381859745779" ignored="false" />
+    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381860210503" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381863791192" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380995927494" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599893036" ignored="false" />
+    <file path="$PROJECT_DIR$/guess/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381860290158" ignored="false" />
+    <file path="/MagicNumber.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381862635167" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,26 +31,7 @@
     <favorites_list name="PWA1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/goal4_assign_duel3/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="0" selection-start="2807" selection-end="2807" vertical-scroll-proportion="0.55922866">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goal4_assign_duel3/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -66,9 +49,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/goal2_assign_jspractice/js/init.js" />
-        <option value="$USER_HOME$/Google Drive/FULL SAIL/PWA1/goal2_assign_JSpractice/js/main.js" />
-        <option value="$PROJECT_DIR$/goal2_assign_jspractice/index.html" />
         <option value="$PROJECT_DIR$/goal2_assign_jspractice/js/main.js" />
         <option value="$PROJECT_DIR$/goal2_assign_jspractice/js/oldCode.js" />
         <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5more/js/main.js" />
@@ -82,10 +62,14 @@
         <option value="$PROJECT_DIR$/Wk2/day6/index.html" />
         <option value="$PROJECT_DIR$/Wk2/day6/main.js" />
         <option value="$PROJECT_DIR$/Wk2/day6/js/main.js" />
+        <option value="$PROJECT_DIR$/goal4_assign_guessing_game/MagicNumber.html" />
+        <option value="$PROJECT_DIR$/class6/js/main.js" />
+        <option value="$PROJECT_DIR$/goal4_assign_guessing_game/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="874" />
@@ -116,6 +100,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -144,7 +129,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal4_assign_duel3" />
+              <option name="myItemId" value="goal4_assign_guessing_game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -158,7 +143,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal4_assign_duel3" />
+              <option name="myItemId" value="goal4_assign_guessing_game" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -166,9 +151,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class6" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,7 +228,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="-8" y="22" width="1440" height="874" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -312,31 +310,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5more/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="110" selection-start="102" selection-end="102" vertical-scroll-proportion="0.12820514" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5objects/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="103" selection-end="103" vertical-scroll-proportion="0.12820514" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/class2/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -391,7 +364,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal4_assign_duel3/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="0" selection-start="2807" selection-end="2807" vertical-scroll-proportion="0.55922866">
+        <state line="112" column="0" selection-start="2807" selection-end="2807" vertical-scroll-proportion="0.5247934" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class6 part2/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class6/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="47" selection-start="350" selection-end="350" vertical-scroll-proportion="0.37190083">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal4_assign_guessing_game/MagicNumber.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="21" selection-start="241" selection-end="241" vertical-scroll-proportion="0.17094018">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal4_assign_guessing_game/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
