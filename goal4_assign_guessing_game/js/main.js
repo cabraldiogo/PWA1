@@ -1,8 +1,8 @@
 /**
  * GUESSING GAME:
  *
- * Created By: 
- * Date: 
+ * Created By:  DIOGO CABRAL
+ * Date: 10/15/2013
  * 
  * GUESSING GAME
  */
