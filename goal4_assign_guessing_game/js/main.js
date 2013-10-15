@@ -19,7 +19,7 @@
     var dom = {
 
         input: document.querySelector("#input"),
-        output: document.querySelector("#ouput"),
+        output: document.querySelector("#output"),
         button: document.querySelector("#btn")
 
     };
@@ -29,9 +29,14 @@
 
     dom.button.addEventListener("click",clickFn);
 
+    function disableButton(){
+        dom.button.removeEventListener("click",clickFn);
+    }
+
     function clickFn(){
 
         console.log("click function");
+        validation();
     }
 
     function validation(){
@@ -42,11 +47,11 @@
             dom.output.innerHTML = "Only numbers are accepted";
 
 
-        }else if(inputNumber > 1 || inputNumber >10){
+        }else if(inputNumber < 1 || inputNumber >10){
             dom.output.innerHTML = "You need to enter a number between 1 and 10";
 
         } else{
-            //play();
+            play();
         }
 
 
@@ -59,6 +64,22 @@
             statusInfo = "Chance " + guesses + "is over. You have " + chancesRemain + " more chances";
 
         inputNumber = parseInt(dom.input.value);
+
+        if(inputNumber < genNumber){
+            dom.output.innerHTML = "Your guess was to low \n" + statusInfo;
+
+
+        } else if(inputNumber > genNumber){
+            dom.output.innerHTML = "Your guess was to high \n" + statusInfo;
+
+        }else if(inputNumber === genNumber){
+            dom.output.innerHTML = "You win. Your guess is correct";
+            disableButton();
+
+        } else{
+            dom.output.innerHTML = "Game over!";
+            disableButton();
+        }
 
 
 
