@@ -4,11 +4,13 @@
     <list default="true" id="268fd64e-ebf6-4679-a60f-1034a777848a" name="Default" comment="" />
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381546825913" ignored="false" />
-    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381548297915" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381548271547" ignored="false" />
+    <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381610104769" ignored="false" />
+    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599891540" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604003821" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380995927494" ignored="false" />
-    <file path="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381548221428" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
+    <file path="$PROJECT_DIR$/../goal6_assign_midterm/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599893036" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal4_assign_duel3/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="112" column="0" selection-start="2807" selection-end="2807" vertical-scroll-proportion="2.3140495">
               <folding />
             </state>
           </provider>
@@ -64,10 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Wk1/class2/js/init.js" />
-        <option value="$PROJECT_DIR$/Wk1/goal1_duel1/js/main.js" />
-        <option value="$PROJECT_DIR$/Wk1/class3/index.html" />
-        <option value="$PROJECT_DIR$/Wk1/class3/js/init.js" />
         <option value="$PROJECT_DIR$/goal2_assign_jspractice/js/init.js" />
         <option value="$USER_HOME$/Google Drive/FULL SAIL/PWA1/goal2_assign_JSpractice/js/main.js" />
         <option value="$PROJECT_DIR$/goal2_assign_jspractice/index.html" />
@@ -80,10 +78,15 @@
         <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/index.html" />
         <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/js/main.js" />
         <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/js/index.html" />
+        <option value="$PROJECT_DIR$/goal4_assign_duel3/js/main.js" />
+        <option value="$PROJECT_DIR$/Wk2/day6/index.html" />
+        <option value="$PROJECT_DIR$/Wk2/day6/main.js" />
+        <option value="$PROJECT_DIR$/Wk2/day6/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="2" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="874" />
@@ -114,6 +117,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,16 +170,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Google Drive/FULL SAIL/PWA1/goal3_assign_debug" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Wk2/day6/js" />
       <recent name="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore" />
       <recent name="$PROJECT_DIR$/Wk1/class2/js" />
       <recent name="$PROJECT_DIR$/Wk1/goal1_duel1/js" />
@@ -192,7 +197,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -226,7 +231,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <frame x="2" y="22" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -308,88 +313,86 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Wk1/class3/js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="954" selection-end="954" vertical-scroll-proportion="0.9467041" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk1/class3/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="94" selection-end="94" vertical-scroll-proportion="0.12820514" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Google Drive/FULL SAIL/PWA1/goal2_assign_JSpractice/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="44" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.8264463" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="78" selection-start="2763" selection-end="2763" vertical-scroll-proportion="0.5785124" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="95" selection-end="95" vertical-scroll-proportion="0.12820514" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goal2_assign_jspractice/js/oldCode.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="89" selection-start="258" selection-end="258" vertical-scroll-proportion="0.24793388" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal2_assign_duel2/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5more/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="110" selection-start="102" selection-end="102" vertical-scroll-proportion="0.12820514" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5objects/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="103" selection-end="103" vertical-scroll-proportion="0.12820514" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/class2/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5objects/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="4" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.020661157" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk1/class3/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.18595041" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk2/day6/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="8" selection-start="763" selection-end="763" vertical-scroll-proportion="0.55785125">
+          <folding>
+            <element signature="e#0#164#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wk2/day6/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5more/js/main.js">
+    <entry file="file://$PROJECT_DIR$/Wk1/goal1_duel1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="27" selection-start="980" selection-end="980" vertical-scroll-proportion="0.8057851">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5objects/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="103" selection-end="103" vertical-scroll-proportion="-3.75">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="26" selection-start="358" selection-end="358" vertical-scroll-proportion="0.49586776">
+        <state line="73" column="0" selection-start="1122" selection-end="1287" vertical-scroll-proportion="0.38016528">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5objects/js/main.js">
+    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5more/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="53" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.19421488">
+        <state line="8" column="33" selection-start="190" selection-end="190" vertical-scroll-proportion="0.16528925">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/index.html">
+    <entry file="file://$PROJECT_DIR$/Wk2/day5/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="110" selection-start="102" selection-end="102" vertical-scroll-proportion="0.12820514">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -403,7 +406,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal4_assign_duel3/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="112" column="0" selection-start="2807" selection-end="2807" vertical-scroll-proportion="2.3140495">
           <folding />
         </state>
       </provider>
