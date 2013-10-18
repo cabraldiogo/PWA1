@@ -4,14 +4,16 @@
     <list default="true" id="268fd64e-ebf6-4679-a60f-1034a777848a" name="Default" comment="" />
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381876564720" ignored="false" />
-    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381860210503" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381880512017" ignored="false" />
+    <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382015236155" ignored="false" />
+    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382020403272" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382018746337" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380995927494" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599893036" ignored="false" />
     <file path="/MagicNumber.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381877254033" ignored="false" />
+    <file path="/oficial.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382021172170" ignored="false" />
+    <file path="/utils.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382025292005" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +36,16 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal4_assign_guessing_game/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="73" selection-end="73" vertical-scroll-proportion="0.020661157">
+            <state line="22" column="49" selection-start="442" selection-end="442" vertical-scroll-proportion="0.24793388">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MagicNumber.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goal4_assign_guessing_game/MagicNumber.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="9" selection-start="312" selection-end="312" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
@@ -58,11 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/goal2_assign_jspractice/js/main.js" />
-        <option value="$PROJECT_DIR$/goal2_assign_jspractice/js/oldCode.js" />
-        <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5more/js/main.js" />
-        <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5objects/js/main.js" />
-        <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5objects/index.html" />
         <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/js/main2.js" />
         <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/index.html" />
         <option value="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore/js/main.js" />
@@ -73,12 +79,16 @@
         <option value="$PROJECT_DIR$/Wk2/day6/js/main.js" />
         <option value="$PROJECT_DIR$/class6/js/main.js" />
         <option value="$PROJECT_DIR$/goal4_assign_guessing_game/MagicNumber.html" />
+        <option value="$PROJECT_DIR$/class8/js/main.js" />
+        <option value="$PROJECT_DIR$/class6/js/oficial.js" />
+        <option value="$PROJECT_DIR$/class8/index.html" />
+        <option value="$PROJECT_DIR$/class8/js/oficial.js" />
+        <option value="$PROJECT_DIR$/class8/js/utils.js" />
         <option value="$PROJECT_DIR$/goal4_assign_guessing_game/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="874" />
@@ -166,12 +176,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WDD_Students" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/class8/js" />
       <recent name="$PROJECT_DIR$/Wk2/day6/js" />
       <recent name="$PROJECT_DIR$/Wk2/day5_instructorFiles/day5moremore" />
       <recent name="$PROJECT_DIR$/Wk1/class2/js" />
@@ -223,7 +234,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -305,26 +316,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Wk2/day5_instructorFiles/day5objects/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="4" selection-start="2051" selection-end="2051" vertical-scroll-proportion="0.020661157" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk1/class3/js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.18595041" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk2/day6/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="8" selection-start="763" selection-end="763" vertical-scroll-proportion="0.55785125" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wk2/day6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Wk1/goal1_duel1/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -355,14 +346,17 @@
         <state line="112" column="0" selection-start="2807" selection-end="2807" vertical-scroll-proportion="0.5247934" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class6 part2/js/main.js">
+    <entry file="file://$PROJECT_DIR$/class6/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class6/index.html">
+    <entry file="file://$PROJECT_DIR$/guess/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="86" selection-start="708" selection-end="708" vertical-scroll-proportion="0.59917355" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class6 part2/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -376,23 +370,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guess/js/main.js">
+    <entry file="file://$PROJECT_DIR$/class8/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="86" selection-start="708" selection-end="708" vertical-scroll-proportion="0.59917355">
+        <state line="1" column="136" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.625">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class8/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="308" selection-end="308" vertical-scroll-proportion="0.20661157">
+          <folding>
+            <element signature="e#0#165#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class8/js/oficial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.9504132">
+          <folding>
+            <element signature="e#0#165#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class8/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="30" selection-start="377" selection-end="377" vertical-scroll-proportion="0.1322314">
+          <folding>
+            <element signature="e#0#164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal4_assign_guessing_game/MagicNumber.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="244" selection-end="244" vertical-scroll-proportion="0.17094018">
+        <state line="11" column="9" selection-start="312" selection-end="312" vertical-scroll-proportion="-6.875">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal4_assign_guessing_game/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="73" selection-end="73" vertical-scroll-proportion="0.020661157">
+        <state line="22" column="49" selection-start="442" selection-end="442" vertical-scroll-proportion="0.24793388">
           <folding />
         </state>
       </provider>

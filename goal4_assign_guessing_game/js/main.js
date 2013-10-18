@@ -20,7 +20,7 @@
 
         input: document.querySelector("#input"),
         output: document.querySelector("#output"),
-        button: document.querySelector("#btn")
+        button: document.querySelector("button")
     };
 
     //Generates a number between 1 and 10
