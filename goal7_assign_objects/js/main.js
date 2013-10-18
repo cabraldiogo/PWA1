@@ -6,7 +6,7 @@
 
 
 (function(){
-console.log("Main Js running");
+//console.log("Main Js running");
 
 
     var names = ["Diogo", "Gabriel", "Kareem", "Antonio", "Scott"];
@@ -17,8 +17,14 @@ console.log("Main Js running");
        this.row = r
    }
 
-    var person = new Person(names[0],1);
-    console.log("Name: "+ person.name + "\n"+"Row #: "+ person.row);
+
+    for( var i= 0; i<3;i++){
+        var index = Math.floor(Math.random()*names.length);
+        var rowNumber = i+1;
+        var person = new Person(names[index],rowNumber);
+        console.log("Name: "+ person.name + "  Row#: " + rowNumber  );
+    }
+
 
 
 
