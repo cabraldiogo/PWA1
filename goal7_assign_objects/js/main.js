@@ -11,26 +11,39 @@
 
     var names = ["Diogo", "Gabriel", "Kareem", "Antonio", "Scott"];
     var people = [];
+    var duplicate = [];
 
 
 
 
 
 
-    function populateHTML(){};
+
+
+
+    function populateHTML(){
+
+
+
+    }
 
 
     for( var i= 0; i<3;i++){
         var index = Math.floor(Math.random()*names.length);
         var rowNumber = i+1;
         var person = new Person(names[index],rowNumber);
+
         people.push(person);
-        console.log(people);
+        //console.log(people[i].name);
+        names.splice(index,1);
+        //console.log("Names   "+names);
+
         document.querySelector("#r"+rowNumber+"c1").innerHTML = people[i].name;
+        //console.log(index);
+        //duplicate.push(index);
+
 
     }
-
-
 
 
 
