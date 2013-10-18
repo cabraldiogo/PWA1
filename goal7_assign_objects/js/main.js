@@ -11,22 +11,12 @@
 
     var names = ["Diogo", "Gabriel", "Kareem", "Antonio", "Scott"];
     var people = [];
-    var duplicate = [];
-
-
-
-
-
-
-
-
 
     function populateHTML(){
-
+          people.forEach()
 
 
     }
-
 
     for( var i= 0; i<3;i++){
         var index = Math.floor(Math.random()*names.length);
@@ -38,12 +28,21 @@
         names.splice(index,1);
         //console.log("Names   "+names);
 
-        document.querySelector("#r"+rowNumber+"c1").innerHTML = people[i].name;
+        //document.querySelector("#r"+rowNumber+"c1").innerHTML = people[i].name;
+        //document.querySelector("#r"+rowNumber+"c2").innerHTML = "Enter Job here";
         //console.log(index);
         //duplicate.push(index);
-
+        document.querySelector("#r"+rowNumber+"c1").innerHTML = people[i].name;
+        document.querySelector("#r"+rowNumber+"c2").innerHTML = "Enter Job here";
 
     }
+
+
+
+
+
+
+
 
 
 
