@@ -12,18 +12,25 @@
     var names = ["Diogo", "Gabriel", "Kareem", "Antonio", "Scott"];
     var people = [];
 
-   function Person(n,r){
-       this.name = n;
-       this.row = r
-   }
+
+
+
+
+
+    function populateHTML(){};
 
 
     for( var i= 0; i<3;i++){
         var index = Math.floor(Math.random()*names.length);
         var rowNumber = i+1;
         var person = new Person(names[index],rowNumber);
-        console.log("Name: "+ person.name + "  Row#: " + rowNumber  );
+        people.push(person);
+        console.log(people);
+        document.querySelector("#r"+rowNumber+"c1").innerHTML = people[i].name;
+
     }
+
+
 
 
 
