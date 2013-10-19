@@ -14,7 +14,7 @@
     <file path="/MagicNumber.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381877254033" ignored="false" />
     <file path="/oficial.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382021172170" ignored="false" />
     <file path="/utils.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382188735728" ignored="false" />
-    <file path="/person.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382208624281" ignored="false" />
+    <file path="/person.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382209616326" ignored="false" />
     <file path="$PROJECT_DIR$/../WDD_Students/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382138690319" ignored="false" />
     <file path="$PROJECT_DIR$/../WDD_Students/js/goal7.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382138781229" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +39,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="63" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.8140496">
+            <state line="55" column="38" selection-start="1645" selection-end="1645" vertical-scroll-proportion="1.1363636">
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="person.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+            <state line="32" column="49" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -95,8 +95,8 @@
         <option value="$PROJECT_DIR$/class9/utils.js" />
         <option value="$PROJECT_DIR$/class9_Canvas/index.html" />
         <option value="$PROJECT_DIR$/class9_Canvas/js/main.js" />
-        <option value="$PROJECT_DIR$/goal7_assign_objects/js/person.js" />
         <option value="$PROJECT_DIR$/goal7_assign_objects/js/main.js" />
+        <option value="$PROJECT_DIR$/goal7_assign_objects/js/person.js" />
       </list>
     </option>
   </component>
@@ -413,6 +413,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="49" selection-start="920" selection-end="920" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/goal7_assign_objects/object.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -420,16 +427,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/person.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="63" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.8140496">
+        <state line="55" column="38" selection-start="1645" selection-end="1645" vertical-scroll-proportion="1.1363636">
           <folding />
         </state>
       </provider>
