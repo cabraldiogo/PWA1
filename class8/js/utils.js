@@ -13,7 +13,38 @@ utils.getAverage = function (a){
 a.forEach(function(e){
      total+=e;
 
-    })
+    });
     return total/ a.length;
 
 };
+
+utils.getArea = function (h,w){
+
+    return h*w;
+
+};
+
+utils.getAreaCirc = function (r){
+
+
+    return Math.PI * (r*r);
+
+};
+
+utils.getKmToMile = function (km){
+
+
+    return km*0.621371;
+
+};
+
+
+
+
+
+
+
+
+
+
+

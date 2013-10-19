@@ -20,6 +20,8 @@ function Student(){
     var btn1 = document.querySelector("#btn1");
     var btn2 = document.querySelector("#btn2");
 
+    //setInterval(runUpdate, 1000 / 30);
+
 
     function create(){
         var s = new Student();
