@@ -14,7 +14,7 @@
     <file path="/MagicNumber.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381877254033" ignored="false" />
     <file path="/oficial.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382021172170" ignored="false" />
     <file path="/utils.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382188735728" ignored="false" />
-    <file path="/person.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382207756791" ignored="false" />
+    <file path="/person.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382208624281" ignored="false" />
     <file path="$PROJECT_DIR$/../WDD_Students/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382138690319" ignored="false" />
     <file path="$PROJECT_DIR$/../WDD_Students/js/goal7.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382138781229" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +39,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="38" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.8264463">
+            <state line="54" column="63" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.8140496">
               <folding />
             </state>
           </provider>
@@ -48,7 +48,7 @@
       <file leaf-file-name="person.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+            <state line="8" column="31" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -422,14 +422,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+        <state line="8" column="31" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="38" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.8264463">
+        <state line="54" column="63" selection-start="1611" selection-end="1611" vertical-scroll-proportion="0.8140496">
           <folding />
         </state>
       </provider>

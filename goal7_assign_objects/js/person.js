@@ -2,15 +2,17 @@
  * Created by the JavaScript Development Team
  * Class: PWA
  * Goal: Goal7
+ *
+ *
  */
 
-
+    //DIOGO CABRAL, October, 19
 
 (function(){
 
 
     Person.jobs = ["Web Developer","Web Designer","Graphic Designer", "Film Maker", "Sound Engineer"];
-    Person.actions = ["Running","Sleeping", "Eating", "Drawing"];
+    Person.actions = ["Running","Sleeping", "Eating", "Drawing","Walking","Studying","Reading", "Singing"];
 
     Person.prototype.update = function(){
         this.action = Person.actions[Math.floor(Math.random()*Person.actions.length)];
