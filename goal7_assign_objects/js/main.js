@@ -11,19 +11,7 @@
 
     var names = ["Diogo", "Gabriel", "Kareem", "Antonio", "Scott"];
     var people = [];
-
-
-
-
-
-
-    function populateHTML(n,r){
-
-        document.querySelector("#r"+r+"c1").innerHTML = n.name;
-        document.querySelector("#r"+r+"c2").innerHTML = person.jobs[Math.floor(Math.random()*5)];
-    }
-
-
+    console.log(people);
 
     for( var i = 0; i<3;i++){
         var index = Math.floor(Math.random()*names.length);
@@ -34,13 +22,29 @@
         people.push(person);
         names.splice(index,1);
 
-        populateHTML(people[i],rowNumber);
+        //populateHTML(people[i],rowNumber);
 
     }
 
 
 
 
+
+    function populateHTML(){
+         for(var i= 0; i<people.length;i++){
+        document.querySelector("#r"+(i+1)+"c1").innerHTML = people[i].name;
+        document.querySelector("#r"+(i+1)+"c2").innerHTML = people[i].job;
+
+
+         }
+    }
+
+
+    populateHTML();
+
+    //console.log(people);
+
+   //console.log(utils.getArea(4,5));
 
 
 

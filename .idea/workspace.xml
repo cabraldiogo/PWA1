@@ -5,16 +5,16 @@
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382139155420" ignored="false" />
-    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382020403272" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382145367834" ignored="false" />
+    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382190145751" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382189928949" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1380995927494" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599893036" ignored="false" />
     <file path="/MagicNumber.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381877254033" ignored="false" />
     <file path="/oficial.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382021172170" ignored="false" />
-    <file path="/utils.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382143105868" ignored="false" />
-    <file path="/person.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382142255331" ignored="false" />
+    <file path="/utils.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382188735728" ignored="false" />
+    <file path="/person.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382189217924" ignored="false" />
     <file path="$PROJECT_DIR$/../WDD_Students/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382138690319" ignored="false" />
     <file path="$PROJECT_DIR$/../WDD_Students/js/goal7.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382138781229" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,19 +36,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="8" selection-start="261" selection-end="261" vertical-scroll-proportion="0.2892562">
+            <state line="44" column="6" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="person.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="person.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/person.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
+            <state line="19" column="33" selection-start="520" selection-end="520" vertical-scroll-proportion="0.39256197">
               <folding />
             </state>
           </provider>
@@ -89,14 +89,14 @@
         <option value="$PROJECT_DIR$/Wk2/day6/js/main.js" />
         <option value="$PROJECT_DIR$/class6/js/main.js" />
         <option value="$PROJECT_DIR$/goal4_assign_guessing_game/MagicNumber.html" />
-        <option value="$PROJECT_DIR$/class8/js/main.js" />
         <option value="$PROJECT_DIR$/class6/js/oficial.js" />
-        <option value="$PROJECT_DIR$/class8/index.html" />
         <option value="$PROJECT_DIR$/goal4_assign_guessing_game/js/main.js" />
         <option value="$PROJECT_DIR$/class8/js/oficial.js" />
-        <option value="$PROJECT_DIR$/class8/js/utils.js" />
         <option value="$PROJECT_DIR$/goal7_assign_objects/js/person.js" />
         <option value="$PROJECT_DIR$/goal7_assign_objects/js/main.js" />
+        <option value="$PROJECT_DIR$/class8/js/main.js" />
+        <option value="$PROJECT_DIR$/class8/js/utils.js" />
+        <option value="$PROJECT_DIR$/class8/index.html" />
       </list>
     </option>
   </component>
@@ -146,6 +146,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goal7_assign_objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goal7_assign_objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class8" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,11 +397,6 @@
         <state line="18" column="47" selection-start="350" selection-end="350" vertical-scroll-proportion="0.37190083" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class8/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="136" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.625" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goal4_assign_guessing_game/MagicNumber.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="9" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" />
@@ -348,26 +407,40 @@
         <state line="22" column="49" selection-start="442" selection-end="442" vertical-scroll-proportion="0.45454547" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class8/js/main.js">
+    <entry file="file://$PROJECT_DIR$/class8/js/oficial.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="377" selection-end="377" vertical-scroll-proportion="0.3305785">
-          <folding>
-            <element signature="e#0#164#0" expanded="false" />
-          </folding>
+        <state line="22" column="40" selection-start="472" selection-end="472" vertical-scroll-proportion="0.45454547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="6" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class8/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="72" selection-start="189" selection-end="189" vertical-scroll-proportion="0.21367522">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/js/utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="504" selection-end="504" vertical-scroll-proportion="0.8264463">
+        <state line="43" column="2" selection-start="576" selection-end="576" vertical-scroll-proportion="0.74380165">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class8/js/oficial.js">
+    <entry file="file://$PROJECT_DIR$/class8/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="472" selection-end="472" vertical-scroll-proportion="0.45454547">
-          <folding />
+        <state line="44" column="36" selection-start="750" selection-end="750" vertical-scroll-proportion="0.78512394">
+          <folding>
+            <element signature="e#0#164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -380,14 +453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="261" selection-end="261" vertical-scroll-proportion="0.2892562">
+        <state line="19" column="33" selection-start="520" selection-end="520" vertical-scroll-proportion="0.39256197">
           <folding />
         </state>
       </provider>

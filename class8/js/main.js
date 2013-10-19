@@ -42,7 +42,7 @@ function Student(n,g){
   }
 
 
-
+    console.log(utils.getArea(4,5));
 
 
 var newStudent = new Student("Teste",grade);

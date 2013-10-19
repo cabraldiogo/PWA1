@@ -38,6 +38,10 @@ utils.getKmToMile = function (km){
 
 };
 
+utils.getAverage([9,8,9]);
+//console.log(utils.getAverage([9,8,7]));
+
+//console.log(utils.getArea(4,5));
 
 
 
