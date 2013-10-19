@@ -44,7 +44,7 @@
 
     }
 
-    setInterval(runUpdate, 5000);
+    setInterval(runUpdate, 3000);
 
 
 
