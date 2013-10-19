@@ -26,14 +26,11 @@
 
     }
 
-
-
-
-
     function populateHTML(){
          for(var i= 0; i<people.length;i++){
         document.querySelector("#r"+(i+1)+"c1").innerHTML = people[i].name;
         document.querySelector("#r"+(i+1)+"c2").innerHTML = people[i].job;
+        document.querySelector("#r"+(i+1)+"c3").innerHTML = people[i].action;
 
 
          }
