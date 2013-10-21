@@ -7,6 +7,7 @@
 //DIOGO CABRAL, October, 19
 
 (function(){
+
 //console.log("Main Js running");
 
     //Array that contain at least five names
