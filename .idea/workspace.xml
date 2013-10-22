@@ -17,6 +17,7 @@
     <file path="/person.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382210805555" ignored="false" />
     <file path="$PROJECT_DIR$/../WDD_Students/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382138690319" ignored="false" />
     <file path="$PROJECT_DIR$/../WDD_Students/js/goal7.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382138781229" ignored="false" />
+    <file path="/validate.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382405342376" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,28 @@
     <favorites_list name="PWA1" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goal5_assign_validation/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.416666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validate.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/goal5_assign_validation/js/validate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="36" selection-start="504" selection-end="504" vertical-scroll-proportion="0.25344354">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -53,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Wk2/day6/js/main.js" />
         <option value="$PROJECT_DIR$/class6/js/main.js" />
         <option value="$PROJECT_DIR$/goal4_assign_guessing_game/MagicNumber.html" />
         <option value="$PROJECT_DIR$/class6/js/oficial.js" />
@@ -69,6 +90,7 @@
         <option value="$PROJECT_DIR$/class9_Canvas/js/main.js" />
         <option value="$PROJECT_DIR$/goal7_assign_objects/js/main.js" />
         <option value="$PROJECT_DIR$/goal7_assign_objects/js/person.js" />
+        <option value="$PROJECT_DIR$/goal5_assign_validation/js/validate.js" />
       </list>
     </option>
   </component>
@@ -132,7 +154,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal7_assign_objects" />
+              <option name="myItemId" value="goal5_assign_validation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -146,7 +168,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="goal7_assign_objects" />
+              <option name="myItemId" value="goal5_assign_validation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -219,12 +241,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -300,19 +322,11 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class6/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guess/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="86" selection-start="708" selection-end="708" vertical-scroll-proportion="0.59917355" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class6 part2/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class6/js/main.js">
@@ -332,7 +346,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/js/oficial.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="40" selection-start="472" selection-end="472" vertical-scroll-proportion="0.45454547" />
+        <state line="22" column="40" selection-start="472" selection-end="472" vertical-scroll-proportion="0.45454547">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/index.html">
@@ -347,7 +363,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/class8/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="36" selection-start="750" selection-end="750" vertical-scroll-proportion="0.78512394" />
+        <state line="44" column="36" selection-start="750" selection-end="750" vertical-scroll-proportion="0.78512394">
+          <folding>
+            <element signature="e#0#164#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class9_Canvas/js/main.js">
@@ -372,12 +392,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/person.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="527" selection-end="527" vertical-scroll-proportion="0.35123968" />
+        <state line="17" column="7" selection-start="527" selection-end="527" vertical-scroll-proportion="0.35123968">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal7_assign_objects/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="12" selection-start="125" selection-end="125" vertical-scroll-proportion="0.16528925" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal5_assign_validation/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="24.416666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal5_assign_validation/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="504" selection-end="504" vertical-scroll-proportion="0.25344354">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
