@@ -7,7 +7,7 @@ console.log("start canvas painter main.js");
 	document.body.appendChild(canvas);
 	canvas.width = 640;
 	canvas.height = 480;
-	var ctx = canvas.getContext("2d");
+	var ctx = canvas.getContext("2d"); //Gives access to the API itself
 
 	ctx.fillStyle = '#cccccc'; //set background color
 	ctx.fillRect (0,0,640,480);
