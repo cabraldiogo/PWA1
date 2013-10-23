@@ -16,6 +16,8 @@
         //Below is one example of the validateField call with an argument.
         //You must dynamically retrieve the ID name from the DOM/HTML.
         //console.log("clicking");
+
+
         e.name = document.querySelector("#f_username");
         e.email = document.querySelector("#f_email");
         e.phone = document.querySelector("#f_phone");
