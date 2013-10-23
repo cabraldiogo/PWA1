@@ -6,9 +6,6 @@
 
 //console.log("JS Started");
 
-// SORRY, SCOTT I COULD NOT DO IT. I AM FEELING SO BAD. I THINK I REALLY DIDN'T LEARN.
-
-
 
 
 (function(){
@@ -18,6 +15,7 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
                 {name:"Gabriel Ferraz", Address: {street:"Mills Ave", city:"San Francisco", state:"CA"}, GPA:[2.0,3.0,3.5]}
                 ];
 
+//Creating an event to the "Next" button that needs to show each student info at the output div
 
 
 
@@ -33,20 +31,34 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
 //    }
 //console.log(average(students[0].GPA));
 
+    var i = 0;
+
+    document.querySelector("#name").innerHTML = "Name: " + students[i].name;
+    document.querySelector("#address").innerHTML = "Address: " + students[i].Address.street;
+    document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
 
 
 
 //Function that display the students info
     function displayData(){
-        document.querySelector("#name").innerHTML = students[0];
+
+                document.querySelector("#name").innerHTML = "Name: " + students[i+1].name;
+                document.querySelector("#address").innerHTML = "Address: " + students[i+1].Address.street;
+                document.querySelector("#gpa").innerHTML = "GPA: " + students[i+1].GPA;
+                 i++
+
+            if(i==students.length-1){
+
+                document.removeEventListener("click",displayData);
+            }
 
     }
 
 //Function to add a new student
-    function addData(name,str,cit,stt,g){
+    function addData(name,obj,g){
         var newStudent = {};
         newStudent.name = name;
-        newStudent.Address = {};
+        newStudent.Address = obj;
         newStudent.GPA = g;
         students.push(newStudent);
 
@@ -68,10 +80,11 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
     }
 
 //Calling the function that add a new student
-    addData("Kareem Beazer","Semoran Blvd","Orlando","FL",[2.0,3.5,4.5]);
+    addData("Kareem Beazer",{street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.5,4.5]);
 
 //Console.log the new student Array that contains the new student
     console.log("*** Below is the new object with a new student on the object ***" + "\n");
+
 
     for(var key in students){
 
@@ -83,69 +96,9 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
 
     }
 
-//Creating an event to the "Next" button that needs to show each student info at the output div
-    document.addEventListener("click",displayData);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        document.addEventListener("click",displayData);
 
 
 
