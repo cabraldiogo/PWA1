@@ -28,6 +28,18 @@
 
 
 
+
+//    var gpaRound = [];
+//
+//    for(var y= 0; y< students.length; y++ ){
+//        gpaRound.push(students[y].GPA[y].toFixed(2));
+//        console.log(gpaRound);
+//
+//    }
+
+
+
+
 //get GPA average.
     function average(g){
         var total=0;
@@ -87,6 +99,8 @@
     console.log("*** Below is the original 2 students ***" + "\n");
     for(var key in students){
 
+
+
         console.log("Name: " + students[key].name);
         console.log("Address: "+
             students[key].Address.street +", "+
@@ -120,6 +134,13 @@
 
 
         document.addEventListener("click",displayData);
+
+
+
+
+
+
+
 
 
 
