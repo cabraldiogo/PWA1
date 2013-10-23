@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382396129080" ignored="false" />
     <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382455429183" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382492499095" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382493563540" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382451848883" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="55" selection-start="2935" selection-end="2935" vertical-scroll-proportion="1.8884298">
+            <state line="52" column="87" selection-start="1677" selection-end="1677" vertical-scroll-proportion="1.0743802">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.875">
+            <state line="48" column="52" selection-start="1377" selection-end="1386" vertical-scroll-proportion="-23.75">
               <folding />
             </state>
           </provider>
@@ -436,14 +436,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="1.875">
+        <state line="48" column="52" selection-start="1377" selection-end="1386" vertical-scroll-proportion="-23.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="55" selection-start="2935" selection-end="2935" vertical-scroll-proportion="1.8884298">
+        <state line="52" column="87" selection-start="1677" selection-end="1677" vertical-scroll-proportion="1.0743802">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

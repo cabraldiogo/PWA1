@@ -19,23 +19,23 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
 
 
 
-// Trying to get average.
-//    function average(g){
-//        var total=0;
-//        g.forEach(function(e){
-//            total+=e;
-//
-//        })
-//
-//        return total/ g.length;
-//    }
-//console.log(average(students[0].GPA));
+//Trying to get average.
+    function average(g){
+        var total=0;
+        g.forEach(function(e){
+            total+=e;
+
+        });
+
+        return total/ g.length;
+    }
 
     var i = 0;
 
     document.querySelector("#name").innerHTML = "Name: " + students[i].name;
     document.querySelector("#address").innerHTML = "Address: " + students[i].Address.street;
     document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
+    document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
 
 
 
@@ -45,10 +45,13 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
                 document.querySelector("#name").innerHTML = "Name: " + students[i+1].name;
                 document.querySelector("#address").innerHTML = "Address: " + students[i+1].Address.street;
                 document.querySelector("#gpa").innerHTML = "GPA: " + students[i+1].GPA;
+                document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i+1].GPA);
                  i++
 
             if(i==students.length-1){
 
+                document.querySelector("#round").innerHTML = "No more students to show";
+                document.querySelector(".buttonred").innerHTML = "DONE!!!";
                 document.removeEventListener("click",displayData);
             }
 
@@ -92,7 +95,7 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
         console.log("Address: "+ students[key].Address.street +", "+
             students[key].Address.city +" - "+
             students[key].Address.state );
-        console.log("GPA: " + "["+ students[key].GPA+ "]" + "\n" );
+        console.log("GPA: " + "["+ students[key].GPA+ "]");
 
     }
 
