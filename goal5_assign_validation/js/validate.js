@@ -18,7 +18,8 @@
         //console.log("clicking");
 
 
-        e.name = document.querySelector("#f_username");
+        e.name = document.querySelector("#f_username").value;
+        console.log(e.name);
         e.email = document.querySelector("#f_email");
         e.phone = document.querySelector("#f_phone");
         e.password = document.querySelector("#f_password");
@@ -26,7 +27,7 @@
 
         console.log("Onsubmit function middle");
 
-        validateField(e.name);  //id = is the form input field ID
+        validateField(e.name.value);  //id = is the form input field ID
         validateField(e.email);
         validateField(e.phone);
         validateField(e.password);
