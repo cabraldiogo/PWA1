@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382396129080" ignored="false" />
     <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382495133575" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382495152477" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382495451806" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382451848883" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="4" selection-start="648" selection-end="648" vertical-scroll-proportion="0.49586776">
+            <state line="47" column="62" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.6100982">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -411,7 +411,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="4" selection-start="648" selection-end="648" vertical-scroll-proportion="0.49586776">
+        <state line="47" column="62" selection-start="1255" selection-end="1255" vertical-scroll-proportion="0.6100982">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

@@ -16,7 +16,7 @@
                 ];
 
 
-    var months = ["Jan","Feb","Mar", "Apr", "May", "Jun", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    var months = ["January","February","March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
     var d = new Date();
     var dd = d.getDate();
@@ -42,7 +42,10 @@
 
 
     document.querySelector("#name").innerHTML = "Name: " + students[i].name;
-    document.querySelector("#address").innerHTML = "Address: " + students[i].Address.street;
+    document.querySelector("#address").innerHTML = "Address: " +
+                                                    students[i].Address.street + ", "+
+                                                    students[i].Address.city+  " - "+
+                                                    students[i].Address.state;
     document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
     document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
     document.querySelector("#date").innerHTML =  months[mm]+", "+dd+" "+yyyy;
@@ -53,7 +56,10 @@
     function displayData(){
 
                 document.querySelector("#name").innerHTML = "Name: " + students[i+1].name;
-                document.querySelector("#address").innerHTML = "Address: " + students[i+1].Address.street;
+                document.querySelector("#address").innerHTML = "Address: " +
+                    students[i+1].Address.street + ", "+
+                    students[i+1].Address.city +  " - "+
+                    students[i+1].Address.state;
                 document.querySelector("#gpa").innerHTML = "GPA: " + students[i+1].GPA;
                 document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i+1].GPA);
                  i++
