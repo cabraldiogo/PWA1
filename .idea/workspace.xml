@@ -5,8 +5,8 @@
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382396129080" ignored="false" />
-    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382455429183" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382493563540" ignored="false" />
+    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382495133575" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382495152477" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382451848883" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="87" selection-start="1677" selection-end="1677" vertical-scroll-proportion="1.0743802">
+            <state line="24" column="4" selection-start="648" selection-end="648" vertical-scroll-proportion="0.49586776">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -52,7 +52,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="52" selection-start="1377" selection-end="1386" vertical-scroll-proportion="-23.75">
+            <state line="36" column="35" selection-start="937" selection-end="937" vertical-scroll-proportion="-16.25">
               <folding />
             </state>
           </provider>
@@ -76,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/class9/index.html" />
         <option value="$PROJECT_DIR$/class9/main.js" />
         <option value="$PROJECT_DIR$/class9/utils.js" />
         <option value="$PROJECT_DIR$/class9_Canvas/index.html" />
@@ -91,6 +90,7 @@
         <option value="$PROJECT_DIR$/class10/EXERCISES/index.html" />
         <option value="$PROJECT_DIR$/class10/EXERCISES/js/main.js" />
         <option value="$PROJECT_DIR$/goal5_assign_validation/js/validate.js" />
+        <option value="$PROJECT_DIR$/goal6_assign_midterm/index.html" />
         <option value="$PROJECT_DIR$/goal6_assign_midterm/js/main.js" />
       </list>
     </option>
@@ -143,38 +143,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PWA1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PWA1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PWA1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goal6_assign_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PWA1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PWA1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="goal6_assign_midterm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -436,14 +404,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="52" selection-start="1377" selection-end="1386" vertical-scroll-proportion="-23.75">
+        <state line="36" column="35" selection-start="937" selection-end="937" vertical-scroll-proportion="-16.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="87" selection-start="1677" selection-end="1677" vertical-scroll-proportion="1.0743802">
+        <state line="24" column="4" selection-start="648" selection-end="648" vertical-scroll-proportion="0.49586776">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

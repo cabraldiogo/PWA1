@@ -11,15 +11,24 @@
 (function(){
 
 // Array with objects that contains the student info
-var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"Winter Park", state:"FL"}, GPA:[5.0,3.0,1.0]},
+    var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"Winter Park", state:"FL"}, GPA:[5.0,3.0,1.0]},
                 {name:"Gabriel Ferraz", Address: {street:"Mills Ave", city:"San Francisco", state:"CA"}, GPA:[2.0,3.0,3.5]}
                 ];
 
-//Creating an event to the "Next" button that needs to show each student info at the output div
+
+    var months = ["Jan","Feb","Mar", "Apr", "May", "Jun", "July", "Aug", "Sep", "Oct", "Nov", "Dec"];
+
+    var d = new Date();
+    var dd = d.getDate();
+    var mm = d.getMonth();
+    var yyyy = d.getFullYear();
+
+
+    var i = 0;
 
 
 
-//Trying to get average.
+//get GPA average.
     function average(g){
         var total=0;
         g.forEach(function(e){
@@ -30,12 +39,13 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
         return total/ g.length;
     }
 
-    var i = 0;
+
 
     document.querySelector("#name").innerHTML = "Name: " + students[i].name;
     document.querySelector("#address").innerHTML = "Address: " + students[i].Address.street;
     document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
     document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
+    document.querySelector("#date").innerHTML =  months[mm]+", "+dd+" "+yyyy;
 
 
 
@@ -76,7 +86,8 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
             students[key].Address.street +", "+
             students[key].Address.city +" - "+
             students[key].Address.state);
-        console.log("GPA: " + "["+ students[key].GPA+ "]" + "\n" );
+        console.log("GPA: " + "["+ students[key].GPA+ "]" );
+        console.log(months[mm],dd,yyyy + "\n" );
 
         //console.log(key,students[key]);
 
@@ -96,12 +107,16 @@ var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"
             students[key].Address.city +" - "+
             students[key].Address.state );
         console.log("GPA: " + "["+ students[key].GPA+ "]");
+        console.log(months[mm],dd,yyyy + "\n" );
 
     }
 
 
 
         document.addEventListener("click",displayData);
+
+
+
 
 
 
