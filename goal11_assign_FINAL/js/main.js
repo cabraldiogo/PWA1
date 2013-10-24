@@ -12,13 +12,12 @@
 
 // Array with objects that contains the student info
     var students = [];
+    var i = 0;
 
     var newStudent = new Student("Diogo Cabral", {street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.0,2.0],new Date());
     students.push(newStudent);
     var newStudent = new Student("Gabriel Ferraz", {street:"Semoran Blvd", city:"Orlando", state:"FL"},[4.0,2.0,3.0],new Date());
     students.push(newStudent);
-
-    console.log(students[1].name);
 
 
     var months = ["January","February","March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -29,7 +28,7 @@
     var yyyy = d.getFullYear();
 
 
-    var i = 0;
+
 
 
 //get GPA average.
@@ -52,7 +51,7 @@
                                                     students[i].address.state;
     document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
     document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
-    document.querySelector("#date").innerHTML =  months[mm]+", "+dd+" "+yyyy;
+    document.querySelector("#date").innerHTML =  "Date: " + months[mm] + ", " + dd+ " " + yyyy;
 
 
 
@@ -99,7 +98,7 @@
             students[key].address.city +" - "+
             students[key].address.state);
         console.log("GPA: " + "["+ students[key].GPA+ "]" );
-        console.log(months[mm]+","+dd+" "+yyyy + "\n" );
+        console.log("Date: " + months[mm]+","+dd+" "+yyyy + "\n" );
 
         //console.log(key,students[key]);
 
@@ -119,7 +118,7 @@
             students[key].address.city +" - "+
             students[key].address.state );
         console.log("GPA: " + "["+ students[key].GPA+ "]");
-        console.log(months[mm]+","+dd+" "+yyyy + "\n" );
+        console.log("Date: " + months[mm]+","+dd+" "+yyyy + "\n" );
 
     }
 
