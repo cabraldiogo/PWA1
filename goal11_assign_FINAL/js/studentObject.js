@@ -14,6 +14,7 @@
         this.address = a;
         this.GPA = g;
         this.date = d;
+        this.average = 0;
 
     }
 

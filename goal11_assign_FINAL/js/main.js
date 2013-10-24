@@ -62,7 +62,8 @@
                     students[i].address.city +  " - "+
                     students[i].address.state;
                 document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
-                document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
+                document.querySelector("#date").innerHTML =  "Date: " + (mm+1) +"/"+dd+"/"+yyyy;
+        document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
                  i++
 
             if(i==students.length){
