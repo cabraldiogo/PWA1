@@ -2,7 +2,7 @@
 	* Mid Terms for PWA-1
 */
 
-// DIOGO CABRAL - October, 12
+// DIOGO CABRAL - October, 24
 
 //console.log("JS Started");
 
@@ -11,9 +11,14 @@
 (function(){
 
 // Array with objects that contains the student info
-    var students = [{name:"Diogo Cabral", Address: {street:"University Blvd", city:"Winter Park", state:"FL"}, GPA:[5.0,3.0,1.0]},
-                {name:"Gabriel Ferraz", Address: {street:"Mills Ave", city:"San Francisco", state:"CA"}, GPA:[2.0,3.0,3.5]}
-                ];
+    var students = [];
+
+    var newStudent = new Student("Diogo Cabral", {street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.0,2.0],new Date());
+    students.push(newStudent);
+    var newStudent = new Student("Gabriel Ferraz", {street:"Semoran Blvd", city:"Orlando", state:"FL"},[4.0,2.0,3.0],new Date());
+    students.push(newStudent);
+
+    console.log(students[1].name);
 
 
     var months = ["January","February","March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -25,19 +30,6 @@
 
 
     var i = 0;
-
-
-
-
-//    var gpaRound = [];
-//
-//    for(var y= 0; y< students.length; y++ ){
-//        gpaRound.push(students[y].GPA[y].toFixed(2));
-//        console.log(gpaRound);
-//
-//    }
-
-
 
 
 //get GPA average.
@@ -53,7 +45,7 @@
 
 
 
-    document.querySelector("#name").innerHTML = "Name: " + students[i].name;
+    document.querySelector("#name").innerHTML = "Name: ";
     document.querySelector("#address").innerHTML = "Address: " +
                                                     students[i].Address.street + ", "+
                                                     students[i].Address.city+  " - "+

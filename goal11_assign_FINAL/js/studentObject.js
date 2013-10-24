@@ -5,3 +5,26 @@
  * Time: 9:57 AM
  * To change this template use File | Settings | File Templates.
  */
+
+
+(function (){
+
+    function Student (n,a,g,d){
+        this.name = n;
+        this.address = a;
+        this.GPA = g;
+        this.date = d;
+
+    }
+
+
+
+    window.Student = Student;
+
+
+
+
+
+
+
+})();

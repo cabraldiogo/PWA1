@@ -5,8 +5,8 @@
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382567912473" ignored="false" />
-    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382623060795" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382582729607" ignored="false" />
+    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382624400334" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382624662371" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382451848883" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
@@ -21,6 +21,7 @@
     <file path="/main.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382452615307" ignored="false" />
     <file path="/index1.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382570816444" ignored="false" />
     <file path="/canvas.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382571531767" ignored="false" />
+    <file path="/studentObject.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382624452957" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +41,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="44" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.7863248">
+            <state line="8" column="25" selection-start="156" selection-end="156" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="59" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.0">
+            <state line="14" column="4" selection-start="183" selection-end="183" vertical-scroll-proportion="0.14305751">
               <folding />
             </state>
           </provider>
@@ -61,7 +62,29 @@
       <file leaf-file-name="studentObject.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/studentObject.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="28" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#164#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="128" selection-start="186" selection-end="288" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="36" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,9 +121,9 @@
         <option value="$PROJECT_DIR$/practice/js/canvas.js" />
         <option value="$PROJECT_DIR$/practice/js/main.js" />
         <option value="$PROJECT_DIR$/class10/EXERCISES/js/main.js" />
-        <option value="$PROJECT_DIR$/goal11_assign_FINAL/js/main.js" />
-        <option value="$PROJECT_DIR$/goal11_assign_FINAL/js/studentObject.js" />
         <option value="$PROJECT_DIR$/goal11_assign_FINAL/index.html" />
+        <option value="$PROJECT_DIR$/goal11_assign_FINAL/js/studentObject.js" />
+        <option value="$PROJECT_DIR$/goal11_assign_FINAL/js/main.js" />
       </list>
     </option>
   </component>
@@ -151,6 +174,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practice" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,13 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="36" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.8677686">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
@@ -460,15 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -476,23 +515,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/studentObject.js">
+    <entry file="file://$PROJECT_DIR$/practice/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="44" column="36" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/main.js">
+    <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="59" selection-start="3328" selection-end="3328" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="13" column="128" selection-start="186" selection-end="288" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="44" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.7863248">
+        <state line="8" column="25" selection-start="156" selection-end="156" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/studentObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#164#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="183" selection-end="183" vertical-scroll-proportion="0.14305751">
           <folding />
         </state>
       </provider>
