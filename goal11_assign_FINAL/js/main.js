@@ -13,21 +13,17 @@
 // Array with objects that contains the student info
     var students = [];
     var i = 0;
-
-
-    var newStudent = new Student("Diogo Cabral", {street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.0,2.0],new Date());
-    students.push(newStudent);
-    var newStudent = new Student("Gabriel Ferraz", {street:"Semoran Blvd", city:"Orlando", state:"FL"},[4.0,2.0,3.0],new Date());
-    students.push(newStudent);
-
-
-    var months = ["January","February","March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
     var d = new Date();
     var dd = d.getDate();
     var mm = d.getMonth();
     var yyyy = d.getFullYear().toString().substr(2,2);
 
+
+    var newStudent = new Student("Diogo Cabral", {street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.0,2.0],new Date());
+    students.push(newStudent);
+
+    var newStudent = new Student("Gabriel Ferraz", {street:"Semoran Blvd", city:"Orlando", state:"FL"},[4.0,2.0,3.0],new Date());
+    students.push(newStudent);
 
 //get GPA average.
     function average(g){
@@ -78,9 +74,6 @@
 
       displayData();
 
-
-
-
 //Console.log the first two students info
     console.log("*** Below is the original 2 students ***" + "\n");
 
@@ -98,18 +91,5 @@
 
 
         document.addEventListener("click",displayData);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 })();
