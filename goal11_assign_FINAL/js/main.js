@@ -25,10 +25,7 @@
     var d = new Date();
     var dd = d.getDate();
     var mm = d.getMonth();
-    var yyyy = d.getFullYear();
-
-
-
+    var yyyy = d.getFullYear().toString().substr(2,2);
 
 
 //get GPA average.
@@ -50,8 +47,8 @@
                                                     students[i].address.city+  " - "+
                                                     students[i].address.state;
     document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
-    document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
-    document.querySelector("#date").innerHTML =  "Date: " + months[mm] + ", " + dd+ " " + yyyy;
+    //document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
+    document.querySelector("#date").innerHTML =  "Date: " + (mm+1) + "/" + dd+ "/" + yyyy;
 
 
 
@@ -77,14 +74,14 @@
     }
 
 //Function to add a new student
-    function addData(name,obj,g){
-        var newStudent = {};
-        newStudent.name = name;
-        newStudent.address = obj;
-        newStudent.GPA = g;
-        students.push(newStudent);
-
-    }
+//    function addData(name,obj,g){
+//        var newStudent = {};
+//        newStudent.name = name;
+//        newStudent.address = obj;
+//        newStudent.GPA = g;
+//        students.push(newStudent);
+//
+//    }
 
 //Console.log the first two students info
     console.log("*** Below is the original 2 students ***" + "\n");
@@ -97,15 +94,15 @@
             students[key].address.street +", "+
             students[key].address.city +" - "+
             students[key].address.state);
-        console.log("GPA: " + "["+ students[key].GPA+ "]" );
-        console.log("Date: " + months[mm]+","+dd+" "+yyyy + "\n" );
+        console.log("GPA: " + students[key].GPA );
+        console.log("Date: " + (mm+1) +"/"+dd+"/"+yyyy + "\n" );
 
         //console.log(key,students[key]);
 
     }
 
-//Calling the function that add a new student
-    addData("Kareem Beazer",{street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.5,4.5]);
+    var newStudent = new Student("Kareem Beazer",{street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.5,4.5],new Date());
+    students.push(newStudent);
 
 //Console.log the new student Array that contains the new student
     console.log("*** Below is the new object with a new student on the object ***" + "\n");
@@ -117,8 +114,8 @@
         console.log("Address: "+ students[key].address.street+", "+
             students[key].address.city +" - "+
             students[key].address.state );
-        console.log("GPA: " + "["+ students[key].GPA+ "]");
-        console.log("Date: " + months[mm]+","+dd+" "+yyyy + "\n" );
+        console.log("GPA: " + students[key].GPA);
+        console.log("Date: " + (mm+1) +"/"+dd+"/"+yyyy + "\n" );
 
     }
 
