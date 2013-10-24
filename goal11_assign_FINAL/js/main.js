@@ -45,11 +45,11 @@
 
 
 
-    document.querySelector("#name").innerHTML = "Name: ";
+    document.querySelector("#name").innerHTML = students[i].name;
     document.querySelector("#address").innerHTML = "Address: " +
-                                                    students[i].Address.street + ", "+
-                                                    students[i].Address.city+  " - "+
-                                                    students[i].Address.state;
+                                                    students[i].address.street + ", "+
+                                                    students[i].address.city+  " - "+
+                                                    students[i].address.state;
     document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
     document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
     document.querySelector("#date").innerHTML =  months[mm]+", "+dd+" "+yyyy;
@@ -61,9 +61,9 @@
 
                 document.querySelector("#name").innerHTML = "Name: " + students[i+1].name;
                 document.querySelector("#address").innerHTML = "Address: " +
-                    students[i+1].Address.street + ", "+
-                    students[i+1].Address.city +  " - "+
-                    students[i+1].Address.state;
+                    students[i+1].address.street + ", "+
+                    students[i+1].address.city +  " - "+
+                    students[i+1].address.state;
                 document.querySelector("#gpa").innerHTML = "GPA: " + students[i+1].GPA;
                 document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i+1].GPA);
                  i++
@@ -81,7 +81,7 @@
     function addData(name,obj,g){
         var newStudent = {};
         newStudent.name = name;
-        newStudent.Address = obj;
+        newStudent.address = obj;
         newStudent.GPA = g;
         students.push(newStudent);
 
@@ -95,9 +95,9 @@
 
         console.log("Name: " + students[key].name);
         console.log("Address: "+
-            students[key].Address.street +", "+
-            students[key].Address.city +" - "+
-            students[key].Address.state);
+            students[key].address.street +", "+
+            students[key].address.city +" - "+
+            students[key].address.state);
         console.log("GPA: " + "["+ students[key].GPA+ "]" );
         console.log(months[mm]+","+dd+" "+yyyy + "\n" );
 
@@ -115,9 +115,9 @@
     for(var key in students){
 
         console.log("Name: " + students[key].name);
-        console.log("Address: "+ students[key].Address.street +", "+
-            students[key].Address.city +" - "+
-            students[key].Address.state );
+        console.log("Address: "+ students[key].address.street+", "+
+            students[key].address.city +" - "+
+            students[key].address.state );
         console.log("GPA: " + "["+ students[key].GPA+ "]");
         console.log(months[mm]+","+dd+" "+yyyy + "\n" );
 
