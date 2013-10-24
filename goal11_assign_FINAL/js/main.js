@@ -27,26 +27,21 @@
     var newStudent = new Student("Gabriel Ferraz", {street:"Semoran Blvd", city:"Orlando", state:"FL"},[4.0,2.0,3.0],new Date());
     students.push(newStudent);
 
-//get GPA average.
-//    function average(g){
-//        var total=0;
-//        g.forEach(function(e){
-//            total+=e;
+    function average(g){
+        var total=0;
+        g.forEach(function(e){
+            total+=e;
+
+        });
+
+        return total/ g.length;
+    }
+
+//    Student.prototype.gpaAverage = function(){
 //
-//        });
+//          this.average = this.GPA / this.GPA.length;
 //
-//        return total/ g.length;
-//    }
-
-    Student.prototype.gpaAverage = function(){
-
-       this.average = 2;
-
-    };
-
-
-
-     console.log(students[1].average);
+//        };
 
     function studentsInfo(){
         for(var key in students){
@@ -60,11 +55,14 @@
 
         }
 
+
     }
 
 
 //Function that display the students info
     function displayData(){
+
+
 
                 document.querySelector("#name").innerHTML = "Name: " + students[i].name;
                 document.querySelector("#address").innerHTML = "Address: " +
@@ -73,7 +71,7 @@
                     students[i].address.state;
                 document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
                 document.querySelector("#date").innerHTML =  "Date: " + (mm+1) +"/"+dd+"/"+yyyy;
-        //document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
+        document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
                  i++
 
             if(i==students.length){
