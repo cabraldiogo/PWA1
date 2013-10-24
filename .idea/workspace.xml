@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382567912473" ignored="false" />
     <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382627100590" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382635608863" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382636018015" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382451848883" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
@@ -44,7 +44,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="35" selection-start="839" selection-end="839" vertical-scroll-proportion="-18.75">
+            <state line="33" column="35" selection-start="839" selection-end="839" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="4" selection-start="2432" selection-end="2432" vertical-scroll-proportion="1.4876033">
+            <state line="21" column="4" selection-start="332" selection-end="332" vertical-scroll-proportion="0.3305785">
               <folding />
             </state>
           </provider>
@@ -523,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="839" selection-end="839" vertical-scroll-proportion="-18.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class6 part2/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="5" selection-start="684" selection-end="684" vertical-scroll-proportion="0.0">
@@ -546,9 +539,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="35" selection-start="839" selection-end="839" vertical-scroll-proportion="-11.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="4" selection-start="2432" selection-end="2432" vertical-scroll-proportion="1.4876033">
+        <state line="21" column="4" selection-start="332" selection-end="332" vertical-scroll-proportion="0.3305785">
           <folding />
         </state>
       </provider>

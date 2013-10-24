@@ -12,13 +12,18 @@
 
 // Array with objects that contains the student info
     var students = [];
+
     var i = 0;
     var d = new Date();
     var dd = d.getDate();
     var mm = d.getMonth();
     var yyyy = d.getFullYear().toString().substr(2,2);
 
-    document.addEventListener("click",displayData);
+
+    var btn = document.querySelector("#info_btn");
+
+
+    btn.addEventListener("click",displayData);
 
 
     var diogo = new Student("Diogo Cabral", {street:"University Blvd", city:"Winter Park", state:"FL"},[3.0,3.0,3.0],new Date());
@@ -69,7 +74,7 @@
 
                 document.querySelector("#round").innerHTML = "No more students to show";
                 document.querySelector(".buttonred").innerHTML = "DONE!!!";
-                document.removeEventListener("click",displayData);
+                btn.removeEventListener("click",displayData);
             }
     }
 
