@@ -28,15 +28,25 @@
     students.push(newStudent);
 
 //get GPA average.
-    function average(g){
-        var total=0;
-        g.forEach(function(e){
-            total+=e;
+//    function average(g){
+//        var total=0;
+//        g.forEach(function(e){
+//            total+=e;
+//
+//        });
+//
+//        return total/ g.length;
+//    }
 
-        });
+    Student.prototype.gpaAverage = function(){
 
-        return total/ g.length;
-    }
+       this.average = 2;
+
+    };
+
+
+
+     console.log(students[1].average);
 
     function studentsInfo(){
         for(var key in students){
@@ -63,7 +73,7 @@
                     students[i].address.state;
                 document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
                 document.querySelector("#date").innerHTML =  "Date: " + (mm+1) +"/"+dd+"/"+yyyy;
-        document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
+        //document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
                  i++
 
             if(i==students.length){
