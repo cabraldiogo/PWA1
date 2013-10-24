@@ -14,6 +14,7 @@
     var students = [];
     var i = 0;
 
+
     var newStudent = new Student("Diogo Cabral", {street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.0,2.0],new Date());
     students.push(newStudent);
     var newStudent = new Student("Gabriel Ferraz", {street:"Semoran Blvd", city:"Orlando", state:"FL"},[4.0,2.0,3.0],new Date());
@@ -57,16 +58,16 @@
 //Function that display the students info
     function displayData(){
 
-                document.querySelector("#name").innerHTML = "Name: " + students[i+1].name;
+                document.querySelector("#name").innerHTML = "Name: " + students[i].name;
                 document.querySelector("#address").innerHTML = "Address: " +
-                    students[i+1].address.street + ", "+
-                    students[i+1].address.city +  " - "+
-                    students[i+1].address.state;
-                document.querySelector("#gpa").innerHTML = "GPA: " + students[i+1].GPA;
-                document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i+1].GPA);
+                    students[i].address.street + ", "+
+                    students[i].address.city +  " - "+
+                    students[i].address.state;
+                document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
+                document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
                  i++
 
-            if(i==students.length-1){
+            if(i==students.length){
 
                 document.querySelector("#round").innerHTML = "No more students to show";
                 document.querySelector(".buttonred").innerHTML = "DONE!!!";
@@ -75,14 +76,8 @@
 
     }
 
-    document.querySelector("#name").innerHTML = students[i].name;
-    document.querySelector("#address").innerHTML = "Address: " +
-        students[i].address.street + ", "+
-        students[i].address.city+  " - "+
-        students[i].address.state;
-    document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
-    //document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
-    document.querySelector("#date").innerHTML =  "Date: " + (mm+1) + "/" + dd+ "/" + yyyy;
+      displayData();
+
 
 
 
