@@ -21,27 +21,22 @@
     document.addEventListener("click",displayData);
 
 
-    var newStudent = new Student("Diogo Cabral", {street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.0,2.0],new Date());
-    students.push(newStudent);
+    var diogo = new Student("Diogo Cabral", {street:"University Blvd", city:"Winter Park", state:"FL"},[3.0,3.0,3.0],new Date());
+    students.push(diogo);
 
-    var newStudent = new Student("Gabriel Ferraz", {street:"Semoran Blvd", city:"Orlando", state:"FL"},[4.0,2.0,3.0],new Date());
-    students.push(newStudent);
+    var gabriel = new Student("Gabriel Ferraz", {street:"Semoran Blvd", city:"Orlando", state:"FL"},[3.5,2.0,3.0],new Date());
+    students.push(gabriel);
 
-    function average(g){
+    Student.prototype.getAverage = function(g){
         var total=0;
         g.forEach(function(e){
             total+=e;
+            gpaAvg = total / g.length;
 
         });
 
-        return total/ g.length;
-    }
-
-//    Student.prototype.gpaAverage = function(){
-//
-//          this.average = this.GPA / this.GPA.length;
-//
-//        };
+        return gpaAvg.toFixed(2);
+    };
 
     function studentsInfo(){
         for(var key in students){
@@ -51,18 +46,14 @@
                 students[key].address.city +" - "+
                 students[key].address.state );
             console.log("GPA: " + students[key].GPA);
-            console.log("Date: " + (mm+1) +"/"+dd+"/"+yyyy + "\n" );
-
+            console.log("Date: " + (mm+1) +"/"+dd+"/"+yyyy);
+            console.log("Average GPA: " + students[key].getAverage(students[key].GPA)+"\n");
         }
-
-
     }
 
 
 //Function that display the students info
     function displayData(){
-
-
 
                 document.querySelector("#name").innerHTML = "Name: " + students[i].name;
                 document.querySelector("#address").innerHTML = "Address: " +
@@ -71,7 +62,7 @@
                     students[i].address.state;
                 document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
                 document.querySelector("#date").innerHTML =  "Date: " + (mm+1) +"/"+dd+"/"+yyyy;
-        document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
+        document.querySelector("#gpaavg").innerHTML = "Average GPA: " + students[i].getAverage(students[i].GPA);
                  i++
 
             if(i==students.length){
@@ -80,7 +71,6 @@
                 document.querySelector(".buttonred").innerHTML = "DONE!!!";
                 document.removeEventListener("click",displayData);
             }
-
     }
 
 
@@ -90,8 +80,8 @@
     studentsInfo();
 
 
-    var newStudent = new Student("Kareem Beazer",{street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.5,4.5],new Date());
-    students.push(newStudent);
+    var kareem = new Student("Kareem Beazer",{street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.5,4.5],new Date());
+    students.push(kareem);
 
 //Console.log the new student Array that contains the new student
     console.log("*** Below is the new object with a new student on the object ***" + "\n");
