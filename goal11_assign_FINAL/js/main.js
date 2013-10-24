@@ -18,6 +18,8 @@
     var mm = d.getMonth();
     var yyyy = d.getFullYear().toString().substr(2,2);
 
+    document.addEventListener("click",displayData);
+
 
     var newStudent = new Student("Diogo Cabral", {street:"University Blvd", city:"Winter Park", state:"FL"},[2.0,3.0,2.0],new Date());
     students.push(newStudent);
@@ -72,11 +74,10 @@
 
     }
 
-      displayData();
+
 
 //Console.log the first two students info
     console.log("*** Below is the original 2 students ***" + "\n");
-
     studentsInfo();
 
 
@@ -85,11 +86,10 @@
 
 //Console.log the new student Array that contains the new student
     console.log("*** Below is the new object with a new student on the object ***" + "\n");
-
     studentsInfo();
 
 
+    displayData();
 
-        document.addEventListener("click",displayData);
 
 })();
