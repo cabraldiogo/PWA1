@@ -23,15 +23,17 @@ console.log(grades.length);
 
 //add elements
 console.log(grades.push(70,80));
+console.log(grades);
 //remove any elements
 
 //remove 40
-grades.splice(1,1);
+//grades.splice(1,1);
 
 //pop()
 //indexOf
 
 grades.splice(grades.indexOf("bob",1));  // remove element without know its position
+console.log(grades);
 
 
 //multidimensional array
@@ -89,7 +91,7 @@ function Car (){
     this.x=0;
     this.y=0;
     this.speed=0;
-    this.info = {tire: 0, tireName: ""}
+    this.info = {tire: 0, tireName: ""};
 
     //this.position = {x:0,y:0};
 
@@ -112,9 +114,12 @@ gabrielCar.info.tire = 32;
 gabrielCar.speed = 10;
 
 var kareemCar = new Car();
+console.log(kareemCar);
 kareemCar.model = "Porsche";
+console.log(kareemCar);
 
 kareemCar.speed = 3;
+console.log(kareemCar);
 
 var cars = [gabrielCar,kareemCar];
 

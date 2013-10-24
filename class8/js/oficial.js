@@ -31,6 +31,7 @@ function Student(){
 
     }
 
+
     function display(){
         var counter = 1;
         students.forEach(function(e){

@@ -18,11 +18,11 @@ var canvas = document.createElement("canvas"); //create a tag on the HTML
     canvas.width=400;
     canvas.height=400;
 
-    var ctx = canvas.getContext("2d")// ctx stands for context
+    var ctx = canvas.getContext("2d");// ctx stands for context
 
     //inserting an image on the canvas
     var img = new Image();
-    img.src = "http://datamatrix.kaywa.com/img.php?s=8&d=http%3A%2F%2Fwww.magicnails.com.br";  //At this point the starts downloading the image but keep going
+    //img.src = "http://datamatrix.kaywa.com/img.php?s=8&d=http%3A%2F%2Fwww.magicnails.com.br";  //At this point the starts downloading the image but keep going
     img.addEventListener("load",onLoad);
 
     function onLoad(e){
@@ -44,18 +44,18 @@ var canvas = document.createElement("canvas"); //create a tag on the HTML
          ctx.lineWidth = 2;
          ctx.moveTo(0,200);
          ctx.lineTo(400,200);
-         ctx.stroke();
+         //ctx.stroke();
 
          ctx.beginPath();
          ctx.moveTo(200,0);
          ctx.lineTo(200,400);
-         ctx.stroke();
+         //ctx.stroke();
 
          ctx.beginPath();
          ctx.rect(180,180,40,40);
          ctx.strokeStyle = "#0000ff";  // blue       // another way to choose color "rgb(0,20,80)"
 
-         ctx.stroke();
+         //ctx.stroke();
 
          //creating random colors
 
@@ -93,17 +93,17 @@ var canvas = document.createElement("canvas"); //create a tag on the HTML
 //    }
 
     // drawing a circle. The method is ".arc"
-    ctx.beginPath();
-    ctx.arc(200,200,20,0,Math.PI*2,true); // the angle parameter is in radiant. 6.28 radiant complete a circle. Or 2 PI(3.14)
-    ctx.stroke();
+    //ctx.beginPath();
+    //ctx.arc(200,200,20,0,Math.PI*2,true); // the angle parameter is in radiant. 6.28 radiant complete a circle. Or 2 PI(3.14)
+    //ctx.stroke();
 //
 //
 //
 //    //
-    ctx.beginPath();
-    ctx.fillStyle = "#00ff00";  // If you want to fill a circle, declare its style first. Then call the .fill();
+    //ctx.beginPath();
+    //ctx.fillStyle = "#00ff00";  // If you want to fill a circle, declare its style first. Then call the .fill();
 
-    ctx.arc(200,200,20,0,Math.PI*2,true);
+    ctx.arc(200,200,40,0,Math.PI*2,true);
     ctx.fill(); // Call the fill
     ctx.stroke();
 //
