@@ -51,11 +51,11 @@
 
             console.log("Name: " + students[key].name);
             console.log("Address: "+ students[key].address.street+", "+
-                students[key].address.city +" - "+
-                students[key].address.state );
+                    students[key].address.city +" - "+
+                    students[key].address.state );
             console.log("GPA: " + students[key].GPA);
-            console.log("Date: " + (mm+1) +"/"+dd+"/"+yyyy);
-            console.log("Average GPA: " + students[key].getAverage(students[key].GPA)+"\n");
+            console.log("Date: " + (mm+1) +"/"+dd+"/"+yyyy+"\n");
+
         }
     }
 
@@ -70,7 +70,7 @@
                     students[i].address.state;
                 document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
                 document.querySelector("#date").innerHTML =  "Date: " + (mm+1) +"/"+dd+"/"+yyyy;
-        document.querySelector("#gpaavg").innerHTML = "Average GPA: " + students[i].getAverage(students[i].GPA);
+                document.querySelector("#gpaavg").innerHTML = "Average GPA: " + students[i].getAverage(students[i].GPA);
                  i++
 
             if(i==students.length){
