@@ -39,17 +39,19 @@
         return total/ g.length;
     }
 
+    function studentsInfo(){
+        for(var key in students){
 
+            console.log("Name: " + students[key].name);
+            console.log("Address: "+ students[key].address.street+", "+
+                students[key].address.city +" - "+
+                students[key].address.state );
+            console.log("GPA: " + students[key].GPA);
+            console.log("Date: " + (mm+1) +"/"+dd+"/"+yyyy + "\n" );
 
-    document.querySelector("#name").innerHTML = students[i].name;
-    document.querySelector("#address").innerHTML = "Address: " +
-                                                    students[i].address.street + ", "+
-                                                    students[i].address.city+  " - "+
-                                                    students[i].address.state;
-    document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
-    //document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
-    document.querySelector("#date").innerHTML =  "Date: " + (mm+1) + "/" + dd+ "/" + yyyy;
+        }
 
+    }
 
 
 //Function that display the students info
@@ -73,15 +75,16 @@
 
     }
 
-//Function to add a new student
-//    function addData(name,obj,g){
-//        var newStudent = {};
-//        newStudent.name = name;
-//        newStudent.address = obj;
-//        newStudent.GPA = g;
-//        students.push(newStudent);
-//
-//    }
+    document.querySelector("#name").innerHTML = students[i].name;
+    document.querySelector("#address").innerHTML = "Address: " +
+        students[i].address.street + ", "+
+        students[i].address.city+  " - "+
+        students[i].address.state;
+    document.querySelector("#gpa").innerHTML = "GPA: " + students[i].GPA;
+    //document.querySelector("#gpaavg").innerHTML = "Average GPA: " + average(students[i].GPA);
+    document.querySelector("#date").innerHTML =  "Date: " + (mm+1) + "/" + dd+ "/" + yyyy;
+
+
 
 //Console.log the first two students info
     console.log("*** Below is the original 2 students ***" + "\n");
@@ -97,19 +100,7 @@
 
     studentsInfo();
 
-     function studentsInfo(){
-            for(var key in students){
 
-                console.log("Name: " + students[key].name);
-                console.log("Address: "+ students[key].address.street+", "+
-                    students[key].address.city +" - "+
-                    students[key].address.state );
-                console.log("GPA: " + students[key].GPA);
-                console.log("Date: " + (mm+1) +"/"+dd+"/"+yyyy + "\n" );
-
-            }
-
-     }
 
         document.addEventListener("click",displayData);
 
