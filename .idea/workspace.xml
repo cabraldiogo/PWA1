@@ -5,8 +5,8 @@
     <ignored path="PWA1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382567912473" ignored="false" />
-    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382627100590" ignored="false" />
-    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382636018015" ignored="false" />
+    <file path="/index.html" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382654838162" ignored="false" />
+    <file path="/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382662984642" ignored="false" />
     <file path="/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1382451848883" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/main.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381604105538" ignored="false" />
     <file path="$PROJECT_DIR$/../goal6_assign_midterm/js/init.js" changelist="268fd64e-ebf6-4679-a60f-1034a777848a" time="1381599624825" ignored="false" />
@@ -41,31 +41,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/index.html">
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class9_Canvas/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="35" selection-start="839" selection-end="839" vertical-scroll-proportion="-11.25">
+            <state line="114" column="69" selection-start="2701" selection-end="2894" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class9_Canvas/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/main.js">
+        <entry file="file://$PROJECT_DIR$/goal10_assign_dataVisualization/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="10" selection-start="1984" selection-end="1984" vertical-scroll-proportion="1.1363636">
-              <folding />
+            <state line="97" column="34" selection-start="1859" selection-end="1859" vertical-scroll-proportion="1.8801653">
+              <folding>
+                <element signature="e#0#164#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="studentObject.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/studentObject.js">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/goal10_assign_dataVisualization/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="25" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#164#0" expanded="false" />
-              </folding>
+            <state line="8" column="34" selection-start="101" selection-end="101" vertical-scroll-proportion="-5.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,11 +97,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/goal6_assign_midterm/index.html" />
-        <option value="$PROJECT_DIR$/goal6_assign_midterm/js/main.js" />
         <option value="$PROJECT_DIR$/goal5_assign_validation/index.html" />
         <option value="$PROJECT_DIR$/goal5_assign_validation/js/validate.js" />
-        <option value="$PROJECT_DIR$/class9_Canvas/js/main.js" />
         <option value="$PROJECT_DIR$/practice/index.html" />
         <option value="$PROJECT_DIR$/class8/js/oficial.js" />
         <option value="$PROJECT_DIR$/class8/index.html" />
@@ -104,6 +110,9 @@
         <option value="$PROJECT_DIR$/goal11_assign_FINAL/index.html" />
         <option value="$PROJECT_DIR$/goal11_assign_FINAL/js/studentObject.js" />
         <option value="$PROJECT_DIR$/goal11_assign_FINAL/js/main.js" />
+        <option value="$PROJECT_DIR$/class9_Canvas/js/main.js" />
+        <option value="$PROJECT_DIR$/goal10_assign_dataVisualization/index.html" />
+        <option value="$PROJECT_DIR$/goal10_assign_dataVisualization/js/main.js" />
       </list>
     </option>
   </component>
@@ -154,6 +163,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goal10_assign_dataVisualization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class9_Canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PWA1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class9_Canvas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,52 +371,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class9_Canvas/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="39" selection-start="2622" selection-end="2622" vertical-scroll-proportion="0.43197757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/js/canvas.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="52" selection-start="522" selection-end="522" vertical-scroll-proportion="0.6818182">
-          <folding>
-            <element signature="e#0#164#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class10/EXERCISES/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="92" selection-end="92" vertical-scroll-proportion="0.17094018">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/goal6_assign_midterm/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="128" selection-start="186" selection-end="288" vertical-scroll-proportion="0.26859504">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/practice/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="36" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.8677686">
@@ -424,17 +433,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="35" selection-start="839" selection-end="839" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="57" column="10" selection-start="1984" selection-end="1984" vertical-scroll-proportion="1.1363636">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal11_assign_FINAL/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="35" selection-start="839" selection-end="839" vertical-scroll-proportion="0.3846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class10/EXERCISES/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="92" selection-end="92" vertical-scroll-proportion="0.17094018">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class9_Canvas/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal10_assign_dataVisualization/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="34" selection-start="101" selection-end="101" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class9_Canvas/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class9_Canvas/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="69" selection-start="2701" selection-end="2894" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal10_assign_dataVisualization/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="34" selection-start="1859" selection-end="1859" vertical-scroll-proportion="1.8801653">
+          <folding>
+            <element signature="e#0#164#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -22,11 +22,11 @@ var canvas = document.createElement("canvas"); //create a tag on the HTML
 
     //inserting an image on the canvas
     var img = new Image();
-    //img.src = "http://datamatrix.kaywa.com/img.php?s=8&d=http%3A%2F%2Fwww.magicnails.com.br";  //At this point the starts downloading the image but keep going
+    img.src = "http://datamatrix.kaywa.com/img.php?s=8&d=http%3A%2F%2Fwww.magicnails.com.br";  //At this point the starts downloading the image but keep going
     img.addEventListener("load",onLoad);
 
     function onLoad(e){
-         ctx.drawImage(img,0,0,300,300);
+         ctx.drawImage(img,220,220,300,300);
         drawChart();
 
     }
